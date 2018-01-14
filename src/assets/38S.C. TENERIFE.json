@@ -1,0 +1,596 @@
+[
+	{
+		"nm": "ADEJE",
+		"locat": {
+			"cd": "38",
+			"cmc": "1"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "1"
+		}
+	},
+	{
+		"nm": "AGULO",
+		"locat": {
+			"cd": "38",
+			"cmc": "2"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "2"
+		}
+	},
+	{
+		"nm": "ALAJERO",
+		"locat": {
+			"cd": "38",
+			"cmc": "3"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "3"
+		}
+	},
+	{
+		"nm": "ARAFO",
+		"locat": {
+			"cd": "38",
+			"cmc": "4"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "4"
+		}
+	},
+	{
+		"nm": "ARICO",
+		"locat": {
+			"cd": "38",
+			"cmc": "5"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "5"
+		}
+	},
+	{
+		"nm": "ARONA",
+		"locat": {
+			"cd": "38",
+			"cmc": "6"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "6"
+		}
+	},
+	{
+		"nm": "BARLOVENTO",
+		"locat": {
+			"cd": "38",
+			"cmc": "7"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "7"
+		}
+	},
+	{
+		"nm": "BREÑA ALTA",
+		"locat": {
+			"cd": "38",
+			"cmc": "8"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "8"
+		}
+	},
+	{
+		"nm": "BREÑA BAJA",
+		"locat": {
+			"cd": "38",
+			"cmc": "9"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "9"
+		}
+	},
+	{
+		"nm": "BUENAVISTA DEL NORTE",
+		"locat": {
+			"cd": "38",
+			"cmc": "10"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "10"
+		}
+	},
+	{
+		"nm": "CANDELARIA",
+		"locat": {
+			"cd": "38",
+			"cmc": "11"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "11"
+		}
+	},
+	{
+		"nm": "EL PASO",
+		"locat": {
+			"cd": "38",
+			"cmc": "27"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "27"
+		}
+	},
+	{
+		"nm": "EL PINAR DE EL HIERRO",
+		"locat": {
+			"cd": "38",
+			"cmc": "54"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "901"
+		}
+	},
+	{
+		"nm": "EL ROSARIO",
+		"locat": {
+			"cd": "38",
+			"cmc": "32"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "32"
+		}
+	},
+	{
+		"nm": "FASNIA",
+		"locat": {
+			"cd": "38",
+			"cmc": "12"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "12"
+		}
+	},
+	{
+		"nm": "FRONTERA",
+		"locat": {
+			"cd": "38",
+			"cmc": "13"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "13"
+		}
+	},
+	{
+		"nm": "FUENCALIENTE DE LA PALMA",
+		"locat": {
+			"cd": "38",
+			"cmc": "14"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "14"
+		}
+	},
+	{
+		"nm": "GARACHICO",
+		"locat": {
+			"cd": "38",
+			"cmc": "15"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "15"
+		}
+	},
+	{
+		"nm": "GARAFIA",
+		"locat": {
+			"cd": "38",
+			"cmc": "16"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "16"
+		}
+	},
+	{
+		"nm": "GRANADILLA DE ABONA",
+		"locat": {
+			"cd": "38",
+			"cmc": "17"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "17"
+		}
+	},
+	{
+		"nm": "GUIA ISORA",
+		"locat": {
+			"cd": "38",
+			"cmc": "19"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "19"
+		}
+	},
+	{
+		"nm": "GUIMAR",
+		"locat": {
+			"cd": "38",
+			"cmc": "20"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "20"
+		}
+	},
+	{
+		"nm": "HERMIGUA",
+		"locat": {
+			"cd": "38",
+			"cmc": "21"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "21"
+		}
+	},
+	{
+		"nm": "ICOD DE LOS VINOS",
+		"locat": {
+			"cd": "38",
+			"cmc": "22"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "22"
+		}
+	},
+	{
+		"nm": "LA GUANCHA",
+		"locat": {
+			"cd": "38",
+			"cmc": "18"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "18"
+		}
+	},
+	{
+		"nm": "LA LAGUNA",
+		"locat": {
+			"cd": "38",
+			"cmc": "23"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "23"
+		}
+	},
+	{
+		"nm": "LA MATANZA DE ACENTEJO",
+		"locat": {
+			"cd": "38",
+			"cmc": "25"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "25"
+		}
+	},
+	{
+		"nm": "LA OROTAVA",
+		"locat": {
+			"cd": "38",
+			"cmc": "26"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "26"
+		}
+	},
+	{
+		"nm": "LA VICTORIA DE ACENTEJO",
+		"locat": {
+			"cd": "38",
+			"cmc": "51"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "51"
+		}
+	},
+	{
+		"nm": "LOS LLANOS DE ARIDANE",
+		"locat": {
+			"cd": "38",
+			"cmc": "24"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "24"
+		}
+	},
+	{
+		"nm": "LOS REALEJOS",
+		"locat": {
+			"cd": "38",
+			"cmc": "31"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "31"
+		}
+	},
+	{
+		"nm": "LOS SILOS",
+		"locat": {
+			"cd": "38",
+			"cmc": "42"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "42"
+		}
+	},
+	{
+		"nm": "PUERTO DE LA CRUZ",
+		"locat": {
+			"cd": "38",
+			"cmc": "28"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "28"
+		}
+	},
+	{
+		"nm": "PUNTAGORDA",
+		"locat": {
+			"cd": "38",
+			"cmc": "29"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "29"
+		}
+	},
+	{
+		"nm": "PUNTALLANA",
+		"locat": {
+			"cd": "38",
+			"cmc": "30"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "30"
+		}
+	},
+	{
+		"nm": "SAN ANDRES Y SAUCES",
+		"locat": {
+			"cd": "38",
+			"cmc": "33"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "33"
+		}
+	},
+	{
+		"nm": "SAN JUAN DE LA RAMBLA",
+		"locat": {
+			"cd": "38",
+			"cmc": "34"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "34"
+		}
+	},
+	{
+		"nm": "SAN MIGUEL",
+		"locat": {
+			"cd": "38",
+			"cmc": "35"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "35"
+		}
+	},
+	{
+		"nm": "SAN SEBASTIAN DE LA GOMERA",
+		"locat": {
+			"cd": "38",
+			"cmc": "36"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "36"
+		}
+	},
+	{
+		"nm": "SANTA CRUZ DE LA PALMA",
+		"locat": {
+			"cd": "38",
+			"cmc": "37"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "37"
+		}
+	},
+	{
+		"nm": "SANTA CRUZ TENERIFE",
+		"locat": {
+			"cd": "38",
+			"cmc": "900"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "38"
+		}
+	},
+	{
+		"nm": "SANTA URSULA",
+		"locat": {
+			"cd": "38",
+			"cmc": "39"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "39"
+		}
+	},
+	{
+		"nm": "SANTIAGO DEL TEIDE",
+		"locat": {
+			"cd": "38",
+			"cmc": "40"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "40"
+		}
+	},
+	{
+		"nm": "SAUZAL",
+		"locat": {
+			"cd": "38",
+			"cmc": "41"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "41"
+		}
+	},
+	{
+		"nm": "TACORONTE",
+		"locat": {
+			"cd": "38",
+			"cmc": "43"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "43"
+		}
+	},
+	{
+		"nm": "TANQUE",
+		"locat": {
+			"cd": "38",
+			"cmc": "44"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "44"
+		}
+	},
+	{
+		"nm": "TAZACORTE",
+		"locat": {
+			"cd": "38",
+			"cmc": "45"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "45"
+		}
+	},
+	{
+		"nm": "TEGUESTE",
+		"locat": {
+			"cd": "38",
+			"cmc": "46"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "46"
+		}
+	},
+	{
+		"nm": "TIJARAFE",
+		"locat": {
+			"cd": "38",
+			"cmc": "47"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "47"
+		}
+	},
+	{
+		"nm": "VALLE GRAN REY",
+		"locat": {
+			"cd": "38",
+			"cmc": "49"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "49"
+		}
+	},
+	{
+		"nm": "VALLEHERMOSO",
+		"locat": {
+			"cd": "38",
+			"cmc": "50"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "50"
+		}
+	},
+	{
+		"nm": "VALVERDE",
+		"locat": {
+			"cd": "38",
+			"cmc": "48"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "48"
+		}
+	},
+	{
+		"nm": "VILAFLOR",
+		"locat": {
+			"cd": "38",
+			"cmc": "52"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "52"
+		}
+	},
+	{
+		"nm": "VILLA DE MAZO",
+		"locat": {
+			"cd": "38",
+			"cmc": "53"
+		},
+		"loine": {
+			"cp": "38",
+			"cm": "53"
+		}
+	}
+]

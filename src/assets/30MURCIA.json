@@ -1,0 +1,497 @@
+[
+	{
+		"nm": "ABANILLA",
+		"locat": {
+			"cd": "30",
+			"cmc": "1"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "1"
+		}
+	},
+	{
+		"nm": "ABARAN",
+		"locat": {
+			"cd": "30",
+			"cmc": "2"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "2"
+		}
+	},
+	{
+		"nm": "AGUILAS",
+		"locat": {
+			"cd": "30",
+			"cmc": "3"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "3"
+		}
+	},
+	{
+		"nm": "ALBUDEITE",
+		"locat": {
+			"cd": "30",
+			"cmc": "4"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "4"
+		}
+	},
+	{
+		"nm": "ALCANTARILLA",
+		"locat": {
+			"cd": "30",
+			"cmc": "5"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "5"
+		}
+	},
+	{
+		"nm": "ALEDO",
+		"locat": {
+			"cd": "30",
+			"cmc": "6"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "6"
+		}
+	},
+	{
+		"nm": "ALGUAZAS",
+		"locat": {
+			"cd": "30",
+			"cmc": "7"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "7"
+		}
+	},
+	{
+		"nm": "ALHAMA DE MURCIA",
+		"locat": {
+			"cd": "30",
+			"cmc": "8"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "8"
+		}
+	},
+	{
+		"nm": "ARCHENA",
+		"locat": {
+			"cd": "30",
+			"cmc": "9"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "9"
+		}
+	},
+	{
+		"nm": "BENIEL",
+		"locat": {
+			"cd": "30",
+			"cmc": "10"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "10"
+		}
+	},
+	{
+		"nm": "BLANCA",
+		"locat": {
+			"cd": "30",
+			"cmc": "11"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "11"
+		}
+	},
+	{
+		"nm": "BULLAS",
+		"locat": {
+			"cd": "30",
+			"cmc": "12"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "12"
+		}
+	},
+	{
+		"nm": "CALASPARRA",
+		"locat": {
+			"cd": "30",
+			"cmc": "13"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "13"
+		}
+	},
+	{
+		"nm": "CAMPOS DEL RIO",
+		"locat": {
+			"cd": "30",
+			"cmc": "14"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "14"
+		}
+	},
+	{
+		"nm": "CARAVACA DE LA CRUZ",
+		"locat": {
+			"cd": "30",
+			"cmc": "15"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "15"
+		}
+	},
+	{
+		"nm": "CARTAGENA",
+		"locat": {
+			"cd": "51",
+			"cmc": "16"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "16"
+		}
+	},
+	{
+		"nm": "CEHEGIN",
+		"locat": {
+			"cd": "30",
+			"cmc": "17"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "17"
+		}
+	},
+	{
+		"nm": "CEUTI",
+		"locat": {
+			"cd": "30",
+			"cmc": "18"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "18"
+		}
+	},
+	{
+		"nm": "CIEZA",
+		"locat": {
+			"cd": "30",
+			"cmc": "19"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "19"
+		}
+	},
+	{
+		"nm": "FORTUNA",
+		"locat": {
+			"cd": "30",
+			"cmc": "20"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "20"
+		}
+	},
+	{
+		"nm": "FUENTE-ALAMO",
+		"locat": {
+			"cd": "51",
+			"cmc": "21"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "21"
+		}
+	},
+	{
+		"nm": "JUMILLA",
+		"locat": {
+			"cd": "30",
+			"cmc": "22"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "22"
+		}
+	},
+	{
+		"nm": "LA UNION",
+		"locat": {
+			"cd": "51",
+			"cmc": "41"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "41"
+		}
+	},
+	{
+		"nm": "LAS TORRES DE COTILLAS",
+		"locat": {
+			"cd": "30",
+			"cmc": "38"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "38"
+		}
+	},
+	{
+		"nm": "LIBRILLA",
+		"locat": {
+			"cd": "30",
+			"cmc": "23"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "23"
+		}
+	},
+	{
+		"nm": "LORCA",
+		"locat": {
+			"cd": "30",
+			"cmc": "24"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "24"
+		}
+	},
+	{
+		"nm": "LORQUI",
+		"locat": {
+			"cd": "30",
+			"cmc": "25"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "25"
+		}
+	},
+	{
+		"nm": "LOS ALCAZARES",
+		"locat": {
+			"cd": "30",
+			"cmc": "45"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "902"
+		}
+	},
+	{
+		"nm": "MAZARRON",
+		"locat": {
+			"cd": "30",
+			"cmc": "26"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "26"
+		}
+	},
+	{
+		"nm": "MOLINA DE SEGURA",
+		"locat": {
+			"cd": "30",
+			"cmc": "27"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "27"
+		}
+	},
+	{
+		"nm": "MORATALLA",
+		"locat": {
+			"cd": "30",
+			"cmc": "28"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "28"
+		}
+	},
+	{
+		"nm": "MULA",
+		"locat": {
+			"cd": "30",
+			"cmc": "29"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "29"
+		}
+	},
+	{
+		"nm": "MURCIA",
+		"locat": {
+			"cd": "30",
+			"cmc": "30"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "30"
+		}
+	},
+	{
+		"nm": "OJOS",
+		"locat": {
+			"cd": "30",
+			"cmc": "31"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "31"
+		}
+	},
+	{
+		"nm": "PLIEGO",
+		"locat": {
+			"cd": "30",
+			"cmc": "32"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "32"
+		}
+	},
+	{
+		"nm": "PUERTO-LUMBRERAS",
+		"locat": {
+			"cd": "30",
+			"cmc": "33"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "33"
+		}
+	},
+	{
+		"nm": "RICOTE",
+		"locat": {
+			"cd": "30",
+			"cmc": "34"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "34"
+		}
+	},
+	{
+		"nm": "SAN JAVIER",
+		"locat": {
+			"cd": "30",
+			"cmc": "35"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "35"
+		}
+	},
+	{
+		"nm": "SAN PEDRO DEL PINATAR",
+		"locat": {
+			"cd": "30",
+			"cmc": "36"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "36"
+		}
+	},
+	{
+		"nm": "SANTOMERA",
+		"locat": {
+			"cd": "30",
+			"cmc": "44"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "901"
+		}
+	},
+	{
+		"nm": "TORRE-PACHECO",
+		"locat": {
+			"cd": "30",
+			"cmc": "37"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "37"
+		}
+	},
+	{
+		"nm": "TOTANA",
+		"locat": {
+			"cd": "30",
+			"cmc": "39"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "39"
+		}
+	},
+	{
+		"nm": "ULEA",
+		"locat": {
+			"cd": "30",
+			"cmc": "40"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "40"
+		}
+	},
+	{
+		"nm": "VILLANUEVA DEL RIO SEGURA",
+		"locat": {
+			"cd": "30",
+			"cmc": "42"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "42"
+		}
+	},
+	{
+		"nm": "YECLA",
+		"locat": {
+			"cd": "30",
+			"cmc": "43"
+		},
+		"loine": {
+			"cp": "30",
+			"cm": "43"
+		}
+	}
+]

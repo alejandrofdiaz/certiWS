@@ -1,0 +1,1047 @@
+[
+	{
+		"nm": "A BAÑA",
+		"locat": {
+			"cd": "15",
+			"cmc": "7"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "7"
+		}
+	},
+	{
+		"nm": "A CAPELA",
+		"locat": {
+			"cd": "15",
+			"cmc": "18"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "18"
+		}
+	},
+	{
+		"nm": "A CORUÑA",
+		"locat": {
+			"cd": "15",
+			"cmc": "900"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "30"
+		}
+	},
+	{
+		"nm": "A LARACHA",
+		"locat": {
+			"cd": "15",
+			"cmc": "42"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "41"
+		}
+	},
+	{
+		"nm": "A POBRA DO CARAMIÑAL",
+		"locat": {
+			"cd": "15",
+			"cmc": "68"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "67"
+		}
+	},
+	{
+		"nm": "ABEGONDO",
+		"locat": {
+			"cd": "15",
+			"cmc": "1"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "1"
+		}
+	},
+	{
+		"nm": "AMES",
+		"locat": {
+			"cd": "15",
+			"cmc": "2"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "2"
+		}
+	},
+	{
+		"nm": "ARANGA",
+		"locat": {
+			"cd": "15",
+			"cmc": "3"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "3"
+		}
+	},
+	{
+		"nm": "ARES",
+		"locat": {
+			"cd": "15",
+			"cmc": "4"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "4"
+		}
+	},
+	{
+		"nm": "ARTEIXO",
+		"locat": {
+			"cd": "15",
+			"cmc": "5"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "5"
+		}
+	},
+	{
+		"nm": "ARZUA",
+		"locat": {
+			"cd": "15",
+			"cmc": "6"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "6"
+		}
+	},
+	{
+		"nm": "AS SOMOZAS",
+		"locat": {
+			"cd": "15",
+			"cmc": "82"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "81"
+		}
+	},
+	{
+		"nm": "BERGONDO",
+		"locat": {
+			"cd": "15",
+			"cmc": "8"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "8"
+		}
+	},
+	{
+		"nm": "BETANZOS",
+		"locat": {
+			"cd": "15",
+			"cmc": "9"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "9"
+		}
+	},
+	{
+		"nm": "BOIMORTO",
+		"locat": {
+			"cd": "15",
+			"cmc": "10"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "10"
+		}
+	},
+	{
+		"nm": "BOIRO",
+		"locat": {
+			"cd": "15",
+			"cmc": "11"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "11"
+		}
+	},
+	{
+		"nm": "BOQUEIXON",
+		"locat": {
+			"cd": "15",
+			"cmc": "12"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "12"
+		}
+	},
+	{
+		"nm": "BRION",
+		"locat": {
+			"cd": "15",
+			"cmc": "13"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "13"
+		}
+	},
+	{
+		"nm": "CABANA DE BERGANTIÑOS",
+		"locat": {
+			"cd": "15",
+			"cmc": "14"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "14"
+		}
+	},
+	{
+		"nm": "CABANAS",
+		"locat": {
+			"cd": "15",
+			"cmc": "15"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "15"
+		}
+	},
+	{
+		"nm": "CAMARIÑAS",
+		"locat": {
+			"cd": "15",
+			"cmc": "16"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "16"
+		}
+	},
+	{
+		"nm": "CAMBRE",
+		"locat": {
+			"cd": "15",
+			"cmc": "17"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "17"
+		}
+	},
+	{
+		"nm": "CARBALLO",
+		"locat": {
+			"cd": "15",
+			"cmc": "19"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "19"
+		}
+	},
+	{
+		"nm": "CARIÑO",
+		"locat": {
+			"cd": "15",
+			"cmc": "95"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "901"
+		}
+	},
+	{
+		"nm": "CARNOTA",
+		"locat": {
+			"cd": "15",
+			"cmc": "20"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "20"
+		}
+	},
+	{
+		"nm": "CARRAL",
+		"locat": {
+			"cd": "15",
+			"cmc": "21"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "21"
+		}
+	},
+	{
+		"nm": "CEDEIRA",
+		"locat": {
+			"cd": "15",
+			"cmc": "22"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "22"
+		}
+	},
+	{
+		"nm": "CEE",
+		"locat": {
+			"cd": "15",
+			"cmc": "23"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "23"
+		}
+	},
+	{
+		"nm": "CERCEDA",
+		"locat": {
+			"cd": "15",
+			"cmc": "24"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "24"
+		}
+	},
+	{
+		"nm": "CERDIDO",
+		"locat": {
+			"cd": "15",
+			"cmc": "25"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "25"
+		}
+	},
+	{
+		"nm": "CESURAS",
+		"locat": {
+			"cd": "15",
+			"cmc": "26"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "26"
+		}
+	},
+	{
+		"nm": "COIROS",
+		"locat": {
+			"cd": "15",
+			"cmc": "27"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "27"
+		}
+	},
+	{
+		"nm": "CORCUBION",
+		"locat": {
+			"cd": "15",
+			"cmc": "28"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "28"
+		}
+	},
+	{
+		"nm": "CORISTANCO",
+		"locat": {
+			"cd": "15",
+			"cmc": "29"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "29"
+		}
+	},
+	{
+		"nm": "CULLEREDO",
+		"locat": {
+			"cd": "15",
+			"cmc": "31"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "31"
+		}
+	},
+	{
+		"nm": "CURTIS",
+		"locat": {
+			"cd": "15",
+			"cmc": "32"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "32"
+		}
+	},
+	{
+		"nm": "DODRO",
+		"locat": {
+			"cd": "15",
+			"cmc": "33"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "33"
+		}
+	},
+	{
+		"nm": "DUMBRIA",
+		"locat": {
+			"cd": "15",
+			"cmc": "34"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "34"
+		}
+	},
+	{
+		"nm": "FENE",
+		"locat": {
+			"cd": "15",
+			"cmc": "36"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "35"
+		}
+	},
+	{
+		"nm": "FERROL",
+		"locat": {
+			"cd": "15",
+			"cmc": "37"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "36"
+		}
+	},
+	{
+		"nm": "FISTERRA",
+		"locat": {
+			"cd": "15",
+			"cmc": "38"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "37"
+		}
+	},
+	{
+		"nm": "FRADES",
+		"locat": {
+			"cd": "15",
+			"cmc": "39"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "38"
+		}
+	},
+	{
+		"nm": "IRIXOA",
+		"locat": {
+			"cd": "15",
+			"cmc": "40"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "39"
+		}
+	},
+	{
+		"nm": "LAXE",
+		"locat": {
+			"cd": "15",
+			"cmc": "41"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "40"
+		}
+	},
+	{
+		"nm": "LOUSAME",
+		"locat": {
+			"cd": "15",
+			"cmc": "43"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "42"
+		}
+	},
+	{
+		"nm": "MALPICA DE BERGANTIÑOS",
+		"locat": {
+			"cd": "15",
+			"cmc": "44"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "43"
+		}
+	},
+	{
+		"nm": "MAZARICOS",
+		"locat": {
+			"cd": "15",
+			"cmc": "46"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "45"
+		}
+	},
+	{
+		"nm": "MAÑON",
+		"locat": {
+			"cd": "15",
+			"cmc": "45"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "44"
+		}
+	},
+	{
+		"nm": "MELIDE",
+		"locat": {
+			"cd": "15",
+			"cmc": "47"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "46"
+		}
+	},
+	{
+		"nm": "MESIA",
+		"locat": {
+			"cd": "15",
+			"cmc": "48"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "47"
+		}
+	},
+	{
+		"nm": "MIÑO",
+		"locat": {
+			"cd": "15",
+			"cmc": "49"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "48"
+		}
+	},
+	{
+		"nm": "MOECHE",
+		"locat": {
+			"cd": "15",
+			"cmc": "50"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "49"
+		}
+	},
+	{
+		"nm": "MONFERO",
+		"locat": {
+			"cd": "15",
+			"cmc": "51"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "50"
+		}
+	},
+	{
+		"nm": "MUGARDOS",
+		"locat": {
+			"cd": "15",
+			"cmc": "52"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "51"
+		}
+	},
+	{
+		"nm": "MUROS",
+		"locat": {
+			"cd": "15",
+			"cmc": "54"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "53"
+		}
+	},
+	{
+		"nm": "MUXIA",
+		"locat": {
+			"cd": "15",
+			"cmc": "53"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "52"
+		}
+	},
+	{
+		"nm": "NARON",
+		"locat": {
+			"cd": "15",
+			"cmc": "55"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "54"
+		}
+	},
+	{
+		"nm": "NEDA",
+		"locat": {
+			"cd": "15",
+			"cmc": "56"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "55"
+		}
+	},
+	{
+		"nm": "NEGREIRA",
+		"locat": {
+			"cd": "15",
+			"cmc": "57"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "56"
+		}
+	},
+	{
+		"nm": "NOIA",
+		"locat": {
+			"cd": "15",
+			"cmc": "58"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "57"
+		}
+	},
+	{
+		"nm": "O PINO",
+		"locat": {
+			"cd": "15",
+			"cmc": "67"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "66"
+		}
+	},
+	{
+		"nm": "OLEIROS",
+		"locat": {
+			"cd": "15",
+			"cmc": "59"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "58"
+		}
+	},
+	{
+		"nm": "ORDES",
+		"locat": {
+			"cd": "15",
+			"cmc": "60"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "59"
+		}
+	},
+	{
+		"nm": "OROSO",
+		"locat": {
+			"cd": "15",
+			"cmc": "61"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "60"
+		}
+	},
+	{
+		"nm": "ORTIGUEIRA",
+		"locat": {
+			"cd": "15",
+			"cmc": "62"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "61"
+		}
+	},
+	{
+		"nm": "OUTES",
+		"locat": {
+			"cd": "15",
+			"cmc": "63"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "62"
+		}
+	},
+	{
+		"nm": "OZA DOS RIOS",
+		"locat": {
+			"cd": "15",
+			"cmc": "64"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "63"
+		}
+	},
+	{
+		"nm": "OZA-CESURAS",
+		"locat": {
+			"cd": "15",
+			"cmc": "902"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "902"
+		}
+	},
+	{
+		"nm": "PADERNE",
+		"locat": {
+			"cd": "15",
+			"cmc": "65"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "64"
+		}
+	},
+	{
+		"nm": "PADRON",
+		"locat": {
+			"cd": "15",
+			"cmc": "66"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "65"
+		}
+	},
+	{
+		"nm": "PONTECESO",
+		"locat": {
+			"cd": "15",
+			"cmc": "69"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "68"
+		}
+	},
+	{
+		"nm": "PONTEDEUME",
+		"locat": {
+			"cd": "15",
+			"cmc": "70"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "69"
+		}
+	},
+	{
+		"nm": "PONTES GARCIA RODRIGUEZ AS",
+		"locat": {
+			"cd": "15",
+			"cmc": "71"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "70"
+		}
+	},
+	{
+		"nm": "PORTO DO SON",
+		"locat": {
+			"cd": "15",
+			"cmc": "72"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "71"
+		}
+	},
+	{
+		"nm": "RIANXO",
+		"locat": {
+			"cd": "15",
+			"cmc": "73"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "72"
+		}
+	},
+	{
+		"nm": "RIBEIRA",
+		"locat": {
+			"cd": "15",
+			"cmc": "74"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "73"
+		}
+	},
+	{
+		"nm": "ROIS",
+		"locat": {
+			"cd": "15",
+			"cmc": "75"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "74"
+		}
+	},
+	{
+		"nm": "SADA",
+		"locat": {
+			"cd": "15",
+			"cmc": "76"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "75"
+		}
+	},
+	{
+		"nm": "SAN SADURNIÑO",
+		"locat": {
+			"cd": "15",
+			"cmc": "77"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "76"
+		}
+	},
+	{
+		"nm": "SANTA COMBA",
+		"locat": {
+			"cd": "15",
+			"cmc": "78"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "77"
+		}
+	},
+	{
+		"nm": "SANTIAGO DE COMPOSTELA",
+		"locat": {
+			"cd": "15",
+			"cmc": "79"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "78"
+		}
+	},
+	{
+		"nm": "SANTISO",
+		"locat": {
+			"cd": "15",
+			"cmc": "80"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "79"
+		}
+	},
+	{
+		"nm": "SOBRADO",
+		"locat": {
+			"cd": "15",
+			"cmc": "81"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "80"
+		}
+	},
+	{
+		"nm": "TEO",
+		"locat": {
+			"cd": "15",
+			"cmc": "83"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "82"
+		}
+	},
+	{
+		"nm": "TOQUES",
+		"locat": {
+			"cd": "15",
+			"cmc": "84"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "83"
+		}
+	},
+	{
+		"nm": "TORDOIA",
+		"locat": {
+			"cd": "15",
+			"cmc": "85"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "84"
+		}
+	},
+	{
+		"nm": "TOURO",
+		"locat": {
+			"cd": "15",
+			"cmc": "86"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "85"
+		}
+	},
+	{
+		"nm": "TRAZO",
+		"locat": {
+			"cd": "15",
+			"cmc": "87"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "86"
+		}
+	},
+	{
+		"nm": "VAL DO DUBRA",
+		"locat": {
+			"cd": "15",
+			"cmc": "89"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "88"
+		}
+	},
+	{
+		"nm": "VALDOVIÑO",
+		"locat": {
+			"cd": "15",
+			"cmc": "88"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "87"
+		}
+	},
+	{
+		"nm": "VEDRA",
+		"locat": {
+			"cd": "15",
+			"cmc": "90"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "89"
+		}
+	},
+	{
+		"nm": "VILARMAIOR",
+		"locat": {
+			"cd": "15",
+			"cmc": "92"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "91"
+		}
+	},
+	{
+		"nm": "VILASANTAR",
+		"locat": {
+			"cd": "15",
+			"cmc": "91"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "90"
+		}
+	},
+	{
+		"nm": "VIMIANZO",
+		"locat": {
+			"cd": "15",
+			"cmc": "93"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "92"
+		}
+	},
+	{
+		"nm": "ZAS",
+		"locat": {
+			"cd": "15",
+			"cmc": "94"
+		},
+		"loine": {
+			"cp": "15",
+			"cm": "93"
+		}
+	}
+]

@@ -1,0 +1,486 @@
+[
+	{
+		"nm": "ALCALA DE LOS GAZULES",
+		"locat": {
+			"cd": "11",
+			"cmc": "1"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "1"
+		}
+	},
+	{
+		"nm": "ALCALA DEL VALLE",
+		"locat": {
+			"cd": "11",
+			"cmc": "2"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "2"
+		}
+	},
+	{
+		"nm": "ALGAR",
+		"locat": {
+			"cd": "53",
+			"cmc": "3"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "3"
+		}
+	},
+	{
+		"nm": "ALGECIRAS",
+		"locat": {
+			"cd": "11",
+			"cmc": "4"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "4"
+		}
+	},
+	{
+		"nm": "ALGODONALES",
+		"locat": {
+			"cd": "11",
+			"cmc": "5"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "5"
+		}
+	},
+	{
+		"nm": "ARCOS DE LA FRONTERA",
+		"locat": {
+			"cd": "53",
+			"cmc": "6"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "6"
+		}
+	},
+	{
+		"nm": "BARBATE",
+		"locat": {
+			"cd": "11",
+			"cmc": "7"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "7"
+		}
+	},
+	{
+		"nm": "BENALUP-CASAS VIEJAS",
+		"locat": {
+			"cd": "11",
+			"cmc": "43"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "901"
+		}
+	},
+	{
+		"nm": "BENAOCAZ",
+		"locat": {
+			"cd": "11",
+			"cmc": "9"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "9"
+		}
+	},
+	{
+		"nm": "BORNOS",
+		"locat": {
+			"cd": "53",
+			"cmc": "10"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "10"
+		}
+	},
+	{
+		"nm": "CADIZ",
+		"locat": {
+			"cd": "11",
+			"cmc": "900"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "12"
+		}
+	},
+	{
+		"nm": "CASTELLAR DE LA FRONTERA",
+		"locat": {
+			"cd": "11",
+			"cmc": "13"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "13"
+		}
+	},
+	{
+		"nm": "CHICLANA DE LA FRONTERA",
+		"locat": {
+			"cd": "11",
+			"cmc": "15"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "15"
+		}
+	},
+	{
+		"nm": "CHIPIONA",
+		"locat": {
+			"cd": "11",
+			"cmc": "16"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "16"
+		}
+	},
+	{
+		"nm": "CONIL DE LA FRONTERA",
+		"locat": {
+			"cd": "11",
+			"cmc": "14"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "14"
+		}
+	},
+	{
+		"nm": "EL BOSQUE",
+		"locat": {
+			"cd": "11",
+			"cmc": "11"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "11"
+		}
+	},
+	{
+		"nm": "EL GASTOR",
+		"locat": {
+			"cd": "11",
+			"cmc": "18"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "18"
+		}
+	},
+	{
+		"nm": "EL PUERTO DE SANTA MARIA",
+		"locat": {
+			"cd": "11",
+			"cmc": "27"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "27"
+		}
+	},
+	{
+		"nm": "ESPERA",
+		"locat": {
+			"cd": "53",
+			"cmc": "17"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "17"
+		}
+	},
+	{
+		"nm": "GRAZALEMA",
+		"locat": {
+			"cd": "11",
+			"cmc": "19"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "19"
+		}
+	},
+	{
+		"nm": "JEREZ DE LA FRONTERA",
+		"locat": {
+			"cd": "53",
+			"cmc": "20"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "20"
+		}
+	},
+	{
+		"nm": "JIMENA DE LA FRONTERA",
+		"locat": {
+			"cd": "11",
+			"cmc": "21"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "21"
+		}
+	},
+	{
+		"nm": "LA LINEA DE LA CONCEPCION",
+		"locat": {
+			"cd": "11",
+			"cmc": "22"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "22"
+		}
+	},
+	{
+		"nm": "LOS BARRIOS",
+		"locat": {
+			"cd": "11",
+			"cmc": "8"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "8"
+		}
+	},
+	{
+		"nm": "MEDINA-SIDONIA",
+		"locat": {
+			"cd": "11",
+			"cmc": "23"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "23"
+		}
+	},
+	{
+		"nm": "OLVERA",
+		"locat": {
+			"cd": "11",
+			"cmc": "24"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "24"
+		}
+	},
+	{
+		"nm": "PATERNA DE RIVERA",
+		"locat": {
+			"cd": "11",
+			"cmc": "25"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "25"
+		}
+	},
+	{
+		"nm": "PRADO DEL REY",
+		"locat": {
+			"cd": "53",
+			"cmc": "26"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "26"
+		}
+	},
+	{
+		"nm": "PUERTO REAL",
+		"locat": {
+			"cd": "11",
+			"cmc": "28"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "28"
+		}
+	},
+	{
+		"nm": "PUERTO SERRANO",
+		"locat": {
+			"cd": "11",
+			"cmc": "29"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "29"
+		}
+	},
+	{
+		"nm": "ROTA",
+		"locat": {
+			"cd": "11",
+			"cmc": "30"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "30"
+		}
+	},
+	{
+		"nm": "SAN FERNANDO",
+		"locat": {
+			"cd": "11",
+			"cmc": "31"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "31"
+		}
+	},
+	{
+		"nm": "SAN JOSE DEL VALLE",
+		"locat": {
+			"cd": "53",
+			"cmc": "44"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "902"
+		}
+	},
+	{
+		"nm": "SAN ROQUE",
+		"locat": {
+			"cd": "11",
+			"cmc": "33"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "33"
+		}
+	},
+	{
+		"nm": "SANLUCAR DE BARRAMEDA",
+		"locat": {
+			"cd": "11",
+			"cmc": "32"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "32"
+		}
+	},
+	{
+		"nm": "SETENIL DE LAS BODEGAS",
+		"locat": {
+			"cd": "11",
+			"cmc": "34"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "34"
+		}
+	},
+	{
+		"nm": "TARIFA",
+		"locat": {
+			"cd": "11",
+			"cmc": "35"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "35"
+		}
+	},
+	{
+		"nm": "TORRE-ALHAQUIME",
+		"locat": {
+			"cd": "11",
+			"cmc": "36"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "36"
+		}
+	},
+	{
+		"nm": "TREBUJENA",
+		"locat": {
+			"cd": "11",
+			"cmc": "37"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "37"
+		}
+	},
+	{
+		"nm": "UBRIQUE",
+		"locat": {
+			"cd": "11",
+			"cmc": "38"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "38"
+		}
+	},
+	{
+		"nm": "VEJER DE LA FRONTERA",
+		"locat": {
+			"cd": "11",
+			"cmc": "39"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "39"
+		}
+	},
+	{
+		"nm": "VILLALUENGA DEL ROSARIO",
+		"locat": {
+			"cd": "11",
+			"cmc": "40"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "40"
+		}
+	},
+	{
+		"nm": "VILLAMARTIN",
+		"locat": {
+			"cd": "53",
+			"cmc": "41"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "41"
+		}
+	},
+	{
+		"nm": "ZAHARA DE LA SIERRA",
+		"locat": {
+			"cd": "11",
+			"cmc": "42"
+		},
+		"loine": {
+			"cp": "11",
+			"cm": "42"
+		}
+	}
+]

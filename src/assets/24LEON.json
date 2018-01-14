@@ -1,0 +1,2323 @@
+[
+	{
+		"nm": "ACEBEDO",
+		"locat": {
+			"cd": "24",
+			"cmc": "1"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "1"
+		}
+	},
+	{
+		"nm": "ALGADEFE",
+		"locat": {
+			"cd": "24",
+			"cmc": "2"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "2"
+		}
+	},
+	{
+		"nm": "ALIJA DEL INFANTADO",
+		"locat": {
+			"cd": "24",
+			"cmc": "3"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "3"
+		}
+	},
+	{
+		"nm": "ALMANZA",
+		"locat": {
+			"cd": "24",
+			"cmc": "4"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "4"
+		}
+	},
+	{
+		"nm": "ARDON",
+		"locat": {
+			"cd": "24",
+			"cmc": "6"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "6"
+		}
+	},
+	{
+		"nm": "ARGANZA",
+		"locat": {
+			"cd": "24",
+			"cmc": "7"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "7"
+		}
+	},
+	{
+		"nm": "ASTORGA",
+		"locat": {
+			"cd": "24",
+			"cmc": "9"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "8"
+		}
+	},
+	{
+		"nm": "BALBOA",
+		"locat": {
+			"cd": "24",
+			"cmc": "10"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "9"
+		}
+	},
+	{
+		"nm": "BARJAS",
+		"locat": {
+			"cd": "24",
+			"cmc": "12"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "11"
+		}
+	},
+	{
+		"nm": "BEMBIBRE",
+		"locat": {
+			"cd": "24",
+			"cmc": "15"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "14"
+		}
+	},
+	{
+		"nm": "BENAVIDES",
+		"locat": {
+			"cd": "24",
+			"cmc": "16"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "15"
+		}
+	},
+	{
+		"nm": "BENUZA",
+		"locat": {
+			"cd": "24",
+			"cmc": "17"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "16"
+		}
+	},
+	{
+		"nm": "BERCIANOS DEL PARAMO",
+		"locat": {
+			"cd": "24",
+			"cmc": "18"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "17"
+		}
+	},
+	{
+		"nm": "BERCIANOS DEL REAL CAMINO",
+		"locat": {
+			"cd": "24",
+			"cmc": "19"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "18"
+		}
+	},
+	{
+		"nm": "BERLANGA DEL BIERZO",
+		"locat": {
+			"cd": "24",
+			"cmc": "20"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "19"
+		}
+	},
+	{
+		"nm": "BOCA DE HUERGANO",
+		"locat": {
+			"cd": "24",
+			"cmc": "21"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "20"
+		}
+	},
+	{
+		"nm": "BORRENES",
+		"locat": {
+			"cd": "24",
+			"cmc": "23"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "22"
+		}
+	},
+	{
+		"nm": "BOÑAR",
+		"locat": {
+			"cd": "24",
+			"cmc": "22"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "21"
+		}
+	},
+	{
+		"nm": "BRAZUELO",
+		"locat": {
+			"cd": "24",
+			"cmc": "24"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "23"
+		}
+	},
+	{
+		"nm": "BURON",
+		"locat": {
+			"cd": "24",
+			"cmc": "26"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "25"
+		}
+	},
+	{
+		"nm": "BUSTILLO DEL PARAMO",
+		"locat": {
+			"cd": "24",
+			"cmc": "27"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "26"
+		}
+	},
+	{
+		"nm": "CABAÑAS RARAS",
+		"locat": {
+			"cd": "24",
+			"cmc": "28"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "27"
+		}
+	},
+	{
+		"nm": "CABREROS DEL RIO",
+		"locat": {
+			"cd": "24",
+			"cmc": "29"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "28"
+		}
+	},
+	{
+		"nm": "CABRILLANES",
+		"locat": {
+			"cd": "24",
+			"cmc": "30"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "29"
+		}
+	},
+	{
+		"nm": "CACABELOS",
+		"locat": {
+			"cd": "24",
+			"cmc": "31"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "30"
+		}
+	},
+	{
+		"nm": "CALZADA DEL COTO",
+		"locat": {
+			"cd": "24",
+			"cmc": "32"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "31"
+		}
+	},
+	{
+		"nm": "CAMPAZAS",
+		"locat": {
+			"cd": "24",
+			"cmc": "33"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "32"
+		}
+	},
+	{
+		"nm": "CAMPO DE VILLAVIDEL",
+		"locat": {
+			"cd": "24",
+			"cmc": "35"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "33"
+		}
+	},
+	{
+		"nm": "CAMPONARAYA",
+		"locat": {
+			"cd": "24",
+			"cmc": "36"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "34"
+		}
+	},
+	{
+		"nm": "CANDIN",
+		"locat": {
+			"cd": "24",
+			"cmc": "38"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "36"
+		}
+	},
+	{
+		"nm": "CARMENES",
+		"locat": {
+			"cd": "24",
+			"cmc": "39"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "37"
+		}
+	},
+	{
+		"nm": "CARRACEDELO",
+		"locat": {
+			"cd": "24",
+			"cmc": "40"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "38"
+		}
+	},
+	{
+		"nm": "CARRIZO",
+		"locat": {
+			"cd": "24",
+			"cmc": "41"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "39"
+		}
+	},
+	{
+		"nm": "CARROCERA",
+		"locat": {
+			"cd": "24",
+			"cmc": "42"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "40"
+		}
+	},
+	{
+		"nm": "CARUCEDO",
+		"locat": {
+			"cd": "24",
+			"cmc": "43"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "41"
+		}
+	},
+	{
+		"nm": "CASTILFALE",
+		"locat": {
+			"cd": "24",
+			"cmc": "44"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "42"
+		}
+	},
+	{
+		"nm": "CASTRILLO DE CABRERA",
+		"locat": {
+			"cd": "24",
+			"cmc": "45"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "43"
+		}
+	},
+	{
+		"nm": "CASTRILLO DE LA VALDUERNA",
+		"locat": {
+			"cd": "24",
+			"cmc": "46"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "44"
+		}
+	},
+	{
+		"nm": "CASTROCALBON",
+		"locat": {
+			"cd": "24",
+			"cmc": "48"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "46"
+		}
+	},
+	{
+		"nm": "CASTROCONTRIGO",
+		"locat": {
+			"cd": "24",
+			"cmc": "49"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "47"
+		}
+	},
+	{
+		"nm": "CASTROPODAME",
+		"locat": {
+			"cd": "24",
+			"cmc": "51"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "49"
+		}
+	},
+	{
+		"nm": "CASTROTIERRA",
+		"locat": {
+			"cd": "24",
+			"cmc": "52"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "50"
+		}
+	},
+	{
+		"nm": "CEA",
+		"locat": {
+			"cd": "24",
+			"cmc": "53"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "51"
+		}
+	},
+	{
+		"nm": "CEBANICO",
+		"locat": {
+			"cd": "24",
+			"cmc": "54"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "52"
+		}
+	},
+	{
+		"nm": "CEBRONES DEL RIO",
+		"locat": {
+			"cd": "24",
+			"cmc": "55"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "53"
+		}
+	},
+	{
+		"nm": "CHOZAS DE ABAJO",
+		"locat": {
+			"cd": "24",
+			"cmc": "67"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "65"
+		}
+	},
+	{
+		"nm": "CIMANES DE LA VEGA",
+		"locat": {
+			"cd": "24",
+			"cmc": "56"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "54"
+		}
+	},
+	{
+		"nm": "CIMANES DEL TEJAR",
+		"locat": {
+			"cd": "24",
+			"cmc": "57"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "55"
+		}
+	},
+	{
+		"nm": "CISTIERNA",
+		"locat": {
+			"cd": "24",
+			"cmc": "58"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "56"
+		}
+	},
+	{
+		"nm": "CONGOSTO",
+		"locat": {
+			"cd": "24",
+			"cmc": "59"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "57"
+		}
+	},
+	{
+		"nm": "CORBILLOS DE LOS OTEROS",
+		"locat": {
+			"cd": "24",
+			"cmc": "60"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "58"
+		}
+	},
+	{
+		"nm": "CORULLON",
+		"locat": {
+			"cd": "24",
+			"cmc": "61"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "59"
+		}
+	},
+	{
+		"nm": "CREMENES",
+		"locat": {
+			"cd": "24",
+			"cmc": "62"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "60"
+		}
+	},
+	{
+		"nm": "CUADROS",
+		"locat": {
+			"cd": "24",
+			"cmc": "63"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "61"
+		}
+	},
+	{
+		"nm": "CUBILLAS DE LOS OTEROS",
+		"locat": {
+			"cd": "24",
+			"cmc": "64"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "62"
+		}
+	},
+	{
+		"nm": "CUBILLAS DE RUEDA",
+		"locat": {
+			"cd": "24",
+			"cmc": "65"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "63"
+		}
+	},
+	{
+		"nm": "CUBILLOS DEL SIL",
+		"locat": {
+			"cd": "24",
+			"cmc": "66"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "64"
+		}
+	},
+	{
+		"nm": "DESTRIANA",
+		"locat": {
+			"cd": "24",
+			"cmc": "68"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "66"
+		}
+	},
+	{
+		"nm": "EL BURGO RANERO",
+		"locat": {
+			"cd": "24",
+			"cmc": "25"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "24"
+		}
+	},
+	{
+		"nm": "ENCINEDO",
+		"locat": {
+			"cd": "24",
+			"cmc": "69"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "67"
+		}
+	},
+	{
+		"nm": "ESCOBAR DE CAMPOS",
+		"locat": {
+			"cd": "24",
+			"cmc": "71"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "69"
+		}
+	},
+	{
+		"nm": "FABERO",
+		"locat": {
+			"cd": "24",
+			"cmc": "72"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "70"
+		}
+	},
+	{
+		"nm": "FOLGOSO DE LA RIBERA",
+		"locat": {
+			"cd": "24",
+			"cmc": "73"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "71"
+		}
+	},
+	{
+		"nm": "FRESNO DE LA VEGA",
+		"locat": {
+			"cd": "24",
+			"cmc": "75"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "73"
+		}
+	},
+	{
+		"nm": "FUENTES DE CARBAJAL",
+		"locat": {
+			"cd": "24",
+			"cmc": "76"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "74"
+		}
+	},
+	{
+		"nm": "GARRAFE DE TORIO",
+		"locat": {
+			"cd": "24",
+			"cmc": "78"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "76"
+		}
+	},
+	{
+		"nm": "GORDALIZA DEL PINO",
+		"locat": {
+			"cd": "24",
+			"cmc": "79"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "77"
+		}
+	},
+	{
+		"nm": "GORDONCILLO",
+		"locat": {
+			"cd": "24",
+			"cmc": "80"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "78"
+		}
+	},
+	{
+		"nm": "GRADEFES",
+		"locat": {
+			"cd": "24",
+			"cmc": "81"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "79"
+		}
+	},
+	{
+		"nm": "GRAJAL DE CAMPOS",
+		"locat": {
+			"cd": "24",
+			"cmc": "82"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "80"
+		}
+	},
+	{
+		"nm": "GUSENDOS DE LOS OTEROS",
+		"locat": {
+			"cd": "24",
+			"cmc": "83"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "81"
+		}
+	},
+	{
+		"nm": "HOSPITAL DE ORBIGO",
+		"locat": {
+			"cd": "24",
+			"cmc": "84"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "82"
+		}
+	},
+	{
+		"nm": "IGUEÑA",
+		"locat": {
+			"cd": "24",
+			"cmc": "85"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "83"
+		}
+	},
+	{
+		"nm": "IZAGRE",
+		"locat": {
+			"cd": "24",
+			"cmc": "86"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "84"
+		}
+	},
+	{
+		"nm": "JOARILLA DE LAS MATAS",
+		"locat": {
+			"cd": "24",
+			"cmc": "88"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "86"
+		}
+	},
+	{
+		"nm": "LA ANTIGUA",
+		"locat": {
+			"cd": "24",
+			"cmc": "5"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "5"
+		}
+	},
+	{
+		"nm": "LA BAÑEZA",
+		"locat": {
+			"cd": "24",
+			"cmc": "11"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "10"
+		}
+	},
+	{
+		"nm": "LA ERCINA",
+		"locat": {
+			"cd": "24",
+			"cmc": "70"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "68"
+		}
+	},
+	{
+		"nm": "LA POLA DE GORDON",
+		"locat": {
+			"cd": "24",
+			"cmc": "117"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "114"
+		}
+	},
+	{
+		"nm": "LA ROBLA",
+		"locat": {
+			"cd": "24",
+			"cmc": "137"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "134"
+		}
+	},
+	{
+		"nm": "LA VECILLA",
+		"locat": {
+			"cd": "24",
+			"cmc": "196"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "193"
+		}
+	},
+	{
+		"nm": "LAGUNA DALGA",
+		"locat": {
+			"cd": "24",
+			"cmc": "89"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "87"
+		}
+	},
+	{
+		"nm": "LAGUNA DE NEGRILLOS",
+		"locat": {
+			"cd": "24",
+			"cmc": "90"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "88"
+		}
+	},
+	{
+		"nm": "LAS OMAÑAS",
+		"locat": {
+			"cd": "24",
+			"cmc": "106"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "104"
+		}
+	},
+	{
+		"nm": "LEON",
+		"locat": {
+			"cd": "24",
+			"cmc": "900"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "89"
+		}
+	},
+	{
+		"nm": "LLAMAS DE LA RIBERA",
+		"locat": {
+			"cd": "24",
+			"cmc": "94"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "92"
+		}
+	},
+	{
+		"nm": "LOS BARRIOS DE LUNA",
+		"locat": {
+			"cd": "24",
+			"cmc": "13"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "12"
+		}
+	},
+	{
+		"nm": "LUCILLO",
+		"locat": {
+			"cd": "24",
+			"cmc": "92"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "90"
+		}
+	},
+	{
+		"nm": "LUYEGO",
+		"locat": {
+			"cd": "24",
+			"cmc": "93"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "91"
+		}
+	},
+	{
+		"nm": "MAGAZ DE CEPEDA",
+		"locat": {
+			"cd": "24",
+			"cmc": "95"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "93"
+		}
+	},
+	{
+		"nm": "MANSILLA DE LAS MULAS",
+		"locat": {
+			"cd": "24",
+			"cmc": "96"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "94"
+		}
+	},
+	{
+		"nm": "MANSILLA MAYOR",
+		"locat": {
+			"cd": "24",
+			"cmc": "97"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "95"
+		}
+	},
+	{
+		"nm": "MARAÑA",
+		"locat": {
+			"cd": "24",
+			"cmc": "98"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "96"
+		}
+	},
+	{
+		"nm": "MATADEON DE LOS OTEROS",
+		"locat": {
+			"cd": "24",
+			"cmc": "99"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "97"
+		}
+	},
+	{
+		"nm": "MATALLANA",
+		"locat": {
+			"cd": "24",
+			"cmc": "100"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "98"
+		}
+	},
+	{
+		"nm": "MATANZA",
+		"locat": {
+			"cd": "24",
+			"cmc": "101"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "99"
+		}
+	},
+	{
+		"nm": "MOLINASECA",
+		"locat": {
+			"cd": "24",
+			"cmc": "102"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "100"
+		}
+	},
+	{
+		"nm": "MURIAS DE PAREDES",
+		"locat": {
+			"cd": "24",
+			"cmc": "103"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "101"
+		}
+	},
+	{
+		"nm": "NOCEDA",
+		"locat": {
+			"cd": "24",
+			"cmc": "104"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "102"
+		}
+	},
+	{
+		"nm": "OENCIA",
+		"locat": {
+			"cd": "24",
+			"cmc": "105"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "103"
+		}
+	},
+	{
+		"nm": "ONZONILLA",
+		"locat": {
+			"cd": "24",
+			"cmc": "107"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "105"
+		}
+	},
+	{
+		"nm": "OSEJA DE SAJAMBRE",
+		"locat": {
+			"cd": "24",
+			"cmc": "108"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "106"
+		}
+	},
+	{
+		"nm": "PAJARES DE LOS OTEROS",
+		"locat": {
+			"cd": "24",
+			"cmc": "109"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "107"
+		}
+	},
+	{
+		"nm": "PALACIOS DE LA VALDUERNA",
+		"locat": {
+			"cd": "24",
+			"cmc": "110"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "108"
+		}
+	},
+	{
+		"nm": "PALACIOS DEL SIL",
+		"locat": {
+			"cd": "24",
+			"cmc": "111"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "109"
+		}
+	},
+	{
+		"nm": "PARAMO DEL SIL",
+		"locat": {
+			"cd": "24",
+			"cmc": "113"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "110"
+		}
+	},
+	{
+		"nm": "PERANZANES",
+		"locat": {
+			"cd": "24",
+			"cmc": "115"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "112"
+		}
+	},
+	{
+		"nm": "POBLADURA DE PELAYO GARCIA",
+		"locat": {
+			"cd": "24",
+			"cmc": "116"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "113"
+		}
+	},
+	{
+		"nm": "PONFERRADA",
+		"locat": {
+			"cd": "24",
+			"cmc": "118"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "115"
+		}
+	},
+	{
+		"nm": "POSADA DE VALDEON",
+		"locat": {
+			"cd": "24",
+			"cmc": "119"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "116"
+		}
+	},
+	{
+		"nm": "POZUELO DEL PARAMO",
+		"locat": {
+			"cd": "24",
+			"cmc": "120"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "117"
+		}
+	},
+	{
+		"nm": "PRADO DE LA GUZPEÑA",
+		"locat": {
+			"cd": "24",
+			"cmc": "121"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "118"
+		}
+	},
+	{
+		"nm": "PRIARANZA DEL BIERZO",
+		"locat": {
+			"cd": "24",
+			"cmc": "122"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "119"
+		}
+	},
+	{
+		"nm": "PRIORO",
+		"locat": {
+			"cd": "24",
+			"cmc": "123"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "120"
+		}
+	},
+	{
+		"nm": "PUEBLA DE LILLO",
+		"locat": {
+			"cd": "24",
+			"cmc": "124"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "121"
+		}
+	},
+	{
+		"nm": "PUENTE DE DOMINGO FLOREZ",
+		"locat": {
+			"cd": "24",
+			"cmc": "125"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "122"
+		}
+	},
+	{
+		"nm": "QUINTANA DEL CASTILLO",
+		"locat": {
+			"cd": "24",
+			"cmc": "126"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "123"
+		}
+	},
+	{
+		"nm": "QUINTANA DEL MARCO",
+		"locat": {
+			"cd": "24",
+			"cmc": "127"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "124"
+		}
+	},
+	{
+		"nm": "QUINTANA Y CONGOSTO",
+		"locat": {
+			"cd": "24",
+			"cmc": "128"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "125"
+		}
+	},
+	{
+		"nm": "REGUERAS DE ARRIBA",
+		"locat": {
+			"cd": "24",
+			"cmc": "130"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "127"
+		}
+	},
+	{
+		"nm": "REYERO",
+		"locat": {
+			"cd": "24",
+			"cmc": "132"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "129"
+		}
+	},
+	{
+		"nm": "RIAÑO",
+		"locat": {
+			"cd": "24",
+			"cmc": "133"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "130"
+		}
+	},
+	{
+		"nm": "RIEGO DE LA VEGA",
+		"locat": {
+			"cd": "24",
+			"cmc": "134"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "131"
+		}
+	},
+	{
+		"nm": "RIELLO",
+		"locat": {
+			"cd": "24",
+			"cmc": "135"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "132"
+		}
+	},
+	{
+		"nm": "RIOSECO DE TAPIA",
+		"locat": {
+			"cd": "24",
+			"cmc": "136"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "133"
+		}
+	},
+	{
+		"nm": "ROPERUELOS DEL PARAMO",
+		"locat": {
+			"cd": "24",
+			"cmc": "139"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "136"
+		}
+	},
+	{
+		"nm": "SABERO",
+		"locat": {
+			"cd": "24",
+			"cmc": "140"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "137"
+		}
+	},
+	{
+		"nm": "SAHAGUN",
+		"locat": {
+			"cd": "24",
+			"cmc": "142"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "139"
+		}
+	},
+	{
+		"nm": "SAN ADRIAN DEL VALLE",
+		"locat": {
+			"cd": "24",
+			"cmc": "144"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "141"
+		}
+	},
+	{
+		"nm": "SAN ANDRES DEL RABANEDO",
+		"locat": {
+			"cd": "24",
+			"cmc": "145"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "142"
+		}
+	},
+	{
+		"nm": "SAN CRISTOBAL DE LA POLANTERA",
+		"locat": {
+			"cd": "24",
+			"cmc": "147"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "144"
+		}
+	},
+	{
+		"nm": "SAN EMILIANO",
+		"locat": {
+			"cd": "24",
+			"cmc": "148"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "145"
+		}
+	},
+	{
+		"nm": "SAN ESTEBAN DE LOS NOGALES",
+		"locat": {
+			"cd": "24",
+			"cmc": "149"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "146"
+		}
+	},
+	{
+		"nm": "SAN JUSTO DE LA VEGA",
+		"locat": {
+			"cd": "24",
+			"cmc": "151"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "148"
+		}
+	},
+	{
+		"nm": "SAN MILLAN DE LOS CABALLEROS",
+		"locat": {
+			"cd": "24",
+			"cmc": "152"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "149"
+		}
+	},
+	{
+		"nm": "SAN PEDRO BERCIANOS",
+		"locat": {
+			"cd": "24",
+			"cmc": "153"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "150"
+		}
+	},
+	{
+		"nm": "SANCEDO",
+		"locat": {
+			"cd": "24",
+			"cmc": "146"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "143"
+		}
+	},
+	{
+		"nm": "SANTA COLOMBA DE CURUEÑO",
+		"locat": {
+			"cd": "24",
+			"cmc": "154"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "151"
+		}
+	},
+	{
+		"nm": "SANTA COLOMBA DE SOMOZA",
+		"locat": {
+			"cd": "24",
+			"cmc": "155"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "152"
+		}
+	},
+	{
+		"nm": "SANTA CRISTINA DE VALMADRIGAL",
+		"locat": {
+			"cd": "24",
+			"cmc": "156"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "153"
+		}
+	},
+	{
+		"nm": "SANTA ELENA DE JAMUZ",
+		"locat": {
+			"cd": "24",
+			"cmc": "157"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "154"
+		}
+	},
+	{
+		"nm": "SANTA MARIA DE LA ISLA",
+		"locat": {
+			"cd": "24",
+			"cmc": "158"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "155"
+		}
+	},
+	{
+		"nm": "SANTA MARIA DE ORDAS",
+		"locat": {
+			"cd": "24",
+			"cmc": "161"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "158"
+		}
+	},
+	{
+		"nm": "SANTA MARIA DEL MONTE DE CEA",
+		"locat": {
+			"cd": "24",
+			"cmc": "159"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "156"
+		}
+	},
+	{
+		"nm": "SANTA MARIA DEL PARAMO",
+		"locat": {
+			"cd": "24",
+			"cmc": "160"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "157"
+		}
+	},
+	{
+		"nm": "SANTA MARINA DEL REY",
+		"locat": {
+			"cd": "24",
+			"cmc": "162"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "159"
+		}
+	},
+	{
+		"nm": "SANTAS MARTAS",
+		"locat": {
+			"cd": "24",
+			"cmc": "163"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "160"
+		}
+	},
+	{
+		"nm": "SANTIAGO MILLAS",
+		"locat": {
+			"cd": "24",
+			"cmc": "164"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "161"
+		}
+	},
+	{
+		"nm": "SANTOVENIA DE LA VALDONCINA",
+		"locat": {
+			"cd": "24",
+			"cmc": "165"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "162"
+		}
+	},
+	{
+		"nm": "SARIEGOS",
+		"locat": {
+			"cd": "24",
+			"cmc": "166"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "163"
+		}
+	},
+	{
+		"nm": "SENA DE LUNA",
+		"locat": {
+			"cd": "24",
+			"cmc": "167"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "164"
+		}
+	},
+	{
+		"nm": "SOBRADO",
+		"locat": {
+			"cd": "24",
+			"cmc": "168"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "165"
+		}
+	},
+	{
+		"nm": "SOTO DE LA VEGA",
+		"locat": {
+			"cd": "24",
+			"cmc": "169"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "166"
+		}
+	},
+	{
+		"nm": "SOTO Y AMIO",
+		"locat": {
+			"cd": "24",
+			"cmc": "170"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "167"
+		}
+	},
+	{
+		"nm": "TORAL DE LOS GUZMANES",
+		"locat": {
+			"cd": "24",
+			"cmc": "171"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "168"
+		}
+	},
+	{
+		"nm": "TORAL DE LOS VADOS",
+		"locat": {
+			"cd": "24",
+			"cmc": "210"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "206"
+		}
+	},
+	{
+		"nm": "TORENO",
+		"locat": {
+			"cd": "24",
+			"cmc": "172"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "169"
+		}
+	},
+	{
+		"nm": "TORRE DEL BIERZO",
+		"locat": {
+			"cd": "24",
+			"cmc": "173"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "170"
+		}
+	},
+	{
+		"nm": "TRABADELO",
+		"locat": {
+			"cd": "24",
+			"cmc": "174"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "171"
+		}
+	},
+	{
+		"nm": "TRUCHAS",
+		"locat": {
+			"cd": "24",
+			"cmc": "175"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "172"
+		}
+	},
+	{
+		"nm": "TURCIA",
+		"locat": {
+			"cd": "24",
+			"cmc": "176"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "173"
+		}
+	},
+	{
+		"nm": "URDIALES DEL PARAMO",
+		"locat": {
+			"cd": "24",
+			"cmc": "177"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "174"
+		}
+	},
+	{
+		"nm": "VAL DE SAN LORENZO",
+		"locat": {
+			"cd": "24",
+			"cmc": "188"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "185"
+		}
+	},
+	{
+		"nm": "VALDEFRESNO",
+		"locat": {
+			"cd": "24",
+			"cmc": "178"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "175"
+		}
+	},
+	{
+		"nm": "VALDEFUENTES DEL PARAMO",
+		"locat": {
+			"cd": "24",
+			"cmc": "179"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "176"
+		}
+	},
+	{
+		"nm": "VALDELUGUEROS",
+		"locat": {
+			"cd": "24",
+			"cmc": "180"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "177"
+		}
+	},
+	{
+		"nm": "VALDEMORA",
+		"locat": {
+			"cd": "24",
+			"cmc": "181"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "178"
+		}
+	},
+	{
+		"nm": "VALDEPIELAGO",
+		"locat": {
+			"cd": "24",
+			"cmc": "182"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "179"
+		}
+	},
+	{
+		"nm": "VALDEPOLO",
+		"locat": {
+			"cd": "24",
+			"cmc": "183"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "180"
+		}
+	},
+	{
+		"nm": "VALDERAS",
+		"locat": {
+			"cd": "24",
+			"cmc": "184"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "181"
+		}
+	},
+	{
+		"nm": "VALDERREY",
+		"locat": {
+			"cd": "24",
+			"cmc": "185"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "182"
+		}
+	},
+	{
+		"nm": "VALDERRUEDA",
+		"locat": {
+			"cd": "24",
+			"cmc": "186"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "183"
+		}
+	},
+	{
+		"nm": "VALDESAMARIO",
+		"locat": {
+			"cd": "24",
+			"cmc": "187"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "184"
+		}
+	},
+	{
+		"nm": "VALDEVIMBRE",
+		"locat": {
+			"cd": "24",
+			"cmc": "190"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "187"
+		}
+	},
+	{
+		"nm": "VALENCIA DE DON JUAN",
+		"locat": {
+			"cd": "24",
+			"cmc": "191"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "188"
+		}
+	},
+	{
+		"nm": "VALLECILLO",
+		"locat": {
+			"cd": "24",
+			"cmc": "194"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "191"
+		}
+	},
+	{
+		"nm": "VALVERDE DE LA VIRGEN",
+		"locat": {
+			"cd": "24",
+			"cmc": "192"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "189"
+		}
+	},
+	{
+		"nm": "VALVERDE-ENRIQUE",
+		"locat": {
+			"cd": "24",
+			"cmc": "193"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "190"
+		}
+	},
+	{
+		"nm": "VEGA DE ESPINAREDA",
+		"locat": {
+			"cd": "24",
+			"cmc": "199"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "196"
+		}
+	},
+	{
+		"nm": "VEGA DE INFANZONES",
+		"locat": {
+			"cd": "24",
+			"cmc": "200"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "197"
+		}
+	},
+	{
+		"nm": "VEGA DE VALCARCE",
+		"locat": {
+			"cd": "24",
+			"cmc": "201"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "198"
+		}
+	},
+	{
+		"nm": "VEGACERVERA",
+		"locat": {
+			"cd": "24",
+			"cmc": "197"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "194"
+		}
+	},
+	{
+		"nm": "VEGAQUEMADA",
+		"locat": {
+			"cd": "24",
+			"cmc": "203"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "199"
+		}
+	},
+	{
+		"nm": "VEGAS DEL CONDADO",
+		"locat": {
+			"cd": "24",
+			"cmc": "205"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "201"
+		}
+	},
+	{
+		"nm": "VILLABLINO",
+		"locat": {
+			"cd": "24",
+			"cmc": "206"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "202"
+		}
+	},
+	{
+		"nm": "VILLABRAZ",
+		"locat": {
+			"cd": "24",
+			"cmc": "207"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "203"
+		}
+	},
+	{
+		"nm": "VILLADANGOS DEL PARAMO",
+		"locat": {
+			"cd": "24",
+			"cmc": "209"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "205"
+		}
+	},
+	{
+		"nm": "VILLADEMOR DE LA VEGA",
+		"locat": {
+			"cd": "24",
+			"cmc": "211"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "207"
+		}
+	},
+	{
+		"nm": "VILLAFRANCA DEL BIERZO",
+		"locat": {
+			"cd": "24",
+			"cmc": "213"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "209"
+		}
+	},
+	{
+		"nm": "VILLAGATON",
+		"locat": {
+			"cd": "24",
+			"cmc": "214"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "210"
+		}
+	},
+	{
+		"nm": "VILLAMANDOS",
+		"locat": {
+			"cd": "24",
+			"cmc": "215"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "211"
+		}
+	},
+	{
+		"nm": "VILLAMANIN",
+		"locat": {
+			"cd": "24",
+			"cmc": "138"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "901"
+		}
+	},
+	{
+		"nm": "VILLAMARTIN DE DON SANCHO",
+		"locat": {
+			"cd": "24",
+			"cmc": "217"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "213"
+		}
+	},
+	{
+		"nm": "VILLAMAÑAN",
+		"locat": {
+			"cd": "24",
+			"cmc": "216"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "212"
+		}
+	},
+	{
+		"nm": "VILLAMEJIL",
+		"locat": {
+			"cd": "24",
+			"cmc": "218"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "214"
+		}
+	},
+	{
+		"nm": "VILLAMOL",
+		"locat": {
+			"cd": "24",
+			"cmc": "219"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "215"
+		}
+	},
+	{
+		"nm": "VILLAMONTAN DE LA VALDUERNA",
+		"locat": {
+			"cd": "24",
+			"cmc": "220"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "216"
+		}
+	},
+	{
+		"nm": "VILLAMORATIEL DE LAS MATAS",
+		"locat": {
+			"cd": "24",
+			"cmc": "221"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "217"
+		}
+	},
+	{
+		"nm": "VILLANUEVA DE LAS MANZANAS",
+		"locat": {
+			"cd": "24",
+			"cmc": "222"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "218"
+		}
+	},
+	{
+		"nm": "VILLAOBISPO",
+		"locat": {
+			"cd": "24",
+			"cmc": "223"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "219"
+		}
+	},
+	{
+		"nm": "VILLAORNATE Y CASTRO",
+		"locat": {
+			"cd": "24",
+			"cmc": "224"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "902"
+		}
+	},
+	{
+		"nm": "VILLAQUEJIDA",
+		"locat": {
+			"cd": "24",
+			"cmc": "225"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "221"
+		}
+	},
+	{
+		"nm": "VILLAQUILAMBRE",
+		"locat": {
+			"cd": "24",
+			"cmc": "226"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "222"
+		}
+	},
+	{
+		"nm": "VILLAREJO DE ORBIGO",
+		"locat": {
+			"cd": "24",
+			"cmc": "227"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "223"
+		}
+	},
+	{
+		"nm": "VILLARES DE ORBIGO",
+		"locat": {
+			"cd": "24",
+			"cmc": "228"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "224"
+		}
+	},
+	{
+		"nm": "VILLASABARIEGO",
+		"locat": {
+			"cd": "24",
+			"cmc": "229"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "225"
+		}
+	},
+	{
+		"nm": "VILLASELAN",
+		"locat": {
+			"cd": "24",
+			"cmc": "230"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "226"
+		}
+	},
+	{
+		"nm": "VILLATURIEL",
+		"locat": {
+			"cd": "24",
+			"cmc": "231"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "227"
+		}
+	},
+	{
+		"nm": "VILLAZALA",
+		"locat": {
+			"cd": "24",
+			"cmc": "233"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "228"
+		}
+	},
+	{
+		"nm": "VILLAZANZO DE VALDERADUEY",
+		"locat": {
+			"cd": "24",
+			"cmc": "234"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "229"
+		}
+	},
+	{
+		"nm": "ZOTES DEL PARAMO",
+		"locat": {
+			"cd": "24",
+			"cmc": "235"
+		},
+		"loine": {
+			"cp": "24",
+			"cm": "230"
+		}
+	}
+]

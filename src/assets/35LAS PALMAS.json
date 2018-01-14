@@ -1,0 +1,376 @@
+[
+	{
+		"nm": "AGAETE",
+		"locat": {
+			"cd": "35",
+			"cmc": "1"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "1"
+		}
+	},
+	{
+		"nm": "AGUIMES",
+		"locat": {
+			"cd": "35",
+			"cmc": "2"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "2"
+		}
+	},
+	{
+		"nm": "ANTIGUA",
+		"locat": {
+			"cd": "35",
+			"cmc": "3"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "3"
+		}
+	},
+	{
+		"nm": "ARRECIFE",
+		"locat": {
+			"cd": "35",
+			"cmc": "4"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "4"
+		}
+	},
+	{
+		"nm": "ARTENARA",
+		"locat": {
+			"cd": "35",
+			"cmc": "5"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "5"
+		}
+	},
+	{
+		"nm": "ARUCAS",
+		"locat": {
+			"cd": "35",
+			"cmc": "6"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "6"
+		}
+	},
+	{
+		"nm": "BETANCURIA",
+		"locat": {
+			"cd": "35",
+			"cmc": "7"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "7"
+		}
+	},
+	{
+		"nm": "FIRGAS",
+		"locat": {
+			"cd": "35",
+			"cmc": "8"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "8"
+		}
+	},
+	{
+		"nm": "GALDAR",
+		"locat": {
+			"cd": "35",
+			"cmc": "9"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "9"
+		}
+	},
+	{
+		"nm": "GUIA",
+		"locat": {
+			"cd": "35",
+			"cmc": "10"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "23"
+		}
+	},
+	{
+		"nm": "HARIA",
+		"locat": {
+			"cd": "35",
+			"cmc": "11"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "10"
+		}
+	},
+	{
+		"nm": "INGENIO",
+		"locat": {
+			"cd": "35",
+			"cmc": "12"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "11"
+		}
+	},
+	{
+		"nm": "LA ALDEA DE SAN NICOLAS",
+		"locat": {
+			"cd": "35",
+			"cmc": "21"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "20"
+		}
+	},
+	{
+		"nm": "LA OLIVA",
+		"locat": {
+			"cd": "35",
+			"cmc": "15"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "14"
+		}
+	},
+	{
+		"nm": "LAS PALMAS DE GRAN CANARIA",
+		"locat": {
+			"cd": "35",
+			"cmc": "17"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "16"
+		}
+	},
+	{
+		"nm": "MOGAN",
+		"locat": {
+			"cd": "35",
+			"cmc": "13"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "12"
+		}
+	},
+	{
+		"nm": "MOYA",
+		"locat": {
+			"cd": "35",
+			"cmc": "14"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "13"
+		}
+	},
+	{
+		"nm": "PAJARA",
+		"locat": {
+			"cd": "35",
+			"cmc": "16"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "15"
+		}
+	},
+	{
+		"nm": "PUERTO ROSARIO",
+		"locat": {
+			"cd": "35",
+			"cmc": "18"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "17"
+		}
+	},
+	{
+		"nm": "S.BARTOLOME LANZAROTE",
+		"locat": {
+			"cd": "35",
+			"cmc": "19"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "18"
+		}
+	},
+	{
+		"nm": "S.BARTOLOME TIRAJANA",
+		"locat": {
+			"cd": "35",
+			"cmc": "20"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "19"
+		}
+	},
+	{
+		"nm": "SANTA BRIGIDA",
+		"locat": {
+			"cd": "35",
+			"cmc": "22"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "21"
+		}
+	},
+	{
+		"nm": "SANTA LUCIA DE TIRAJANA",
+		"locat": {
+			"cd": "35",
+			"cmc": "23"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "22"
+		}
+	},
+	{
+		"nm": "TEGUISE",
+		"locat": {
+			"cd": "35",
+			"cmc": "24"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "24"
+		}
+	},
+	{
+		"nm": "TEJEDA",
+		"locat": {
+			"cd": "35",
+			"cmc": "25"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "25"
+		}
+	},
+	{
+		"nm": "TELDE",
+		"locat": {
+			"cd": "35",
+			"cmc": "26"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "26"
+		}
+	},
+	{
+		"nm": "TEROR",
+		"locat": {
+			"cd": "35",
+			"cmc": "27"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "27"
+		}
+	},
+	{
+		"nm": "TIAS",
+		"locat": {
+			"cd": "35",
+			"cmc": "28"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "28"
+		}
+	},
+	{
+		"nm": "TINAJO",
+		"locat": {
+			"cd": "35",
+			"cmc": "29"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "29"
+		}
+	},
+	{
+		"nm": "TUINEJE",
+		"locat": {
+			"cd": "35",
+			"cmc": "30"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "30"
+		}
+	},
+	{
+		"nm": "VALLESECO",
+		"locat": {
+			"cd": "35",
+			"cmc": "32"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "32"
+		}
+	},
+	{
+		"nm": "VALSEQUILLO",
+		"locat": {
+			"cd": "35",
+			"cmc": "31"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "31"
+		}
+	},
+	{
+		"nm": "VEGA S.MATEO",
+		"locat": {
+			"cd": "35",
+			"cmc": "33"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "33"
+		}
+	},
+	{
+		"nm": "YAIZA",
+		"locat": {
+			"cd": "35",
+			"cmc": "34"
+		},
+		"loine": {
+			"cp": "35",
+			"cm": "34"
+		}
+	}
+]

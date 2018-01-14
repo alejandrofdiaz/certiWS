@@ -1,0 +1,695 @@
+[
+	{
+		"nm": "A CAÑIZA",
+		"locat": {
+			"cd": "36",
+			"cmc": "9"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "9"
+		}
+	},
+	{
+		"nm": "A ESTRADA",
+		"locat": {
+			"cd": "36",
+			"cmc": "17"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "17"
+		}
+	},
+	{
+		"nm": "A GUARDA",
+		"locat": {
+			"cd": "36",
+			"cmc": "23"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "23"
+		}
+	},
+	{
+		"nm": "A LAMA",
+		"locat": {
+			"cd": "36",
+			"cmc": "25"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "25"
+		}
+	},
+	{
+		"nm": "AGOLADA",
+		"locat": {
+			"cd": "36",
+			"cmc": "20"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "20"
+		}
+	},
+	{
+		"nm": "ARBO",
+		"locat": {
+			"cd": "36",
+			"cmc": "1"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "1"
+		}
+	},
+	{
+		"nm": "AS NEVES",
+		"locat": {
+			"cd": "36",
+			"cmc": "34"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "34"
+		}
+	},
+	{
+		"nm": "BAIONA",
+		"locat": {
+			"cd": "54",
+			"cmc": "3"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "3"
+		}
+	},
+	{
+		"nm": "BARRO",
+		"locat": {
+			"cd": "36",
+			"cmc": "2"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "2"
+		}
+	},
+	{
+		"nm": "BUEU",
+		"locat": {
+			"cd": "36",
+			"cmc": "4"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "4"
+		}
+	},
+	{
+		"nm": "CALDAS DE REIS",
+		"locat": {
+			"cd": "36",
+			"cmc": "5"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "5"
+		}
+	},
+	{
+		"nm": "CAMBADOS",
+		"locat": {
+			"cd": "36",
+			"cmc": "6"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "6"
+		}
+	},
+	{
+		"nm": "CAMPO LAMEIRO",
+		"locat": {
+			"cd": "36",
+			"cmc": "7"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "7"
+		}
+	},
+	{
+		"nm": "CANGAS",
+		"locat": {
+			"cd": "36",
+			"cmc": "8"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "8"
+		}
+	},
+	{
+		"nm": "CATOIRA",
+		"locat": {
+			"cd": "36",
+			"cmc": "10"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "10"
+		}
+	},
+	{
+		"nm": "CERDEDO",
+		"locat": {
+			"cd": "36",
+			"cmc": "11"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "11"
+		}
+	},
+	{
+		"nm": "CERDEDO-COTOBADE",
+		"locat": {
+			"cd": "36",
+			"cmc": "902"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "902"
+		}
+	},
+	{
+		"nm": "COTOBADE",
+		"locat": {
+			"cd": "36",
+			"cmc": "12"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "12"
+		}
+	},
+	{
+		"nm": "CRECENTE",
+		"locat": {
+			"cd": "36",
+			"cmc": "14"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "14"
+		}
+	},
+	{
+		"nm": "CUNTIS",
+		"locat": {
+			"cd": "36",
+			"cmc": "15"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "15"
+		}
+	},
+	{
+		"nm": "DOZON",
+		"locat": {
+			"cd": "36",
+			"cmc": "16"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "16"
+		}
+	},
+	{
+		"nm": "FORCAREI",
+		"locat": {
+			"cd": "36",
+			"cmc": "18"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "18"
+		}
+	},
+	{
+		"nm": "FORNELOS DE MONTES",
+		"locat": {
+			"cd": "36",
+			"cmc": "19"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "19"
+		}
+	},
+	{
+		"nm": "GONDOMAR",
+		"locat": {
+			"cd": "54",
+			"cmc": "21"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "21"
+		}
+	},
+	{
+		"nm": "ILLA DE AROUSA",
+		"locat": {
+			"cd": "36",
+			"cmc": "62"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "901"
+		}
+	},
+	{
+		"nm": "LALIN",
+		"locat": {
+			"cd": "36",
+			"cmc": "24"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "24"
+		}
+	},
+	{
+		"nm": "MARIN",
+		"locat": {
+			"cd": "36",
+			"cmc": "26"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "26"
+		}
+	},
+	{
+		"nm": "MEAÑO",
+		"locat": {
+			"cd": "36",
+			"cmc": "27"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "27"
+		}
+	},
+	{
+		"nm": "MEIS",
+		"locat": {
+			"cd": "36",
+			"cmc": "28"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "28"
+		}
+	},
+	{
+		"nm": "MOAÑA",
+		"locat": {
+			"cd": "36",
+			"cmc": "29"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "29"
+		}
+	},
+	{
+		"nm": "MONDARIZ",
+		"locat": {
+			"cd": "36",
+			"cmc": "30"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "30"
+		}
+	},
+	{
+		"nm": "MONDARIZ-BALNEARIO",
+		"locat": {
+			"cd": "36",
+			"cmc": "31"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "31"
+		}
+	},
+	{
+		"nm": "MORAÑA",
+		"locat": {
+			"cd": "36",
+			"cmc": "32"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "32"
+		}
+	},
+	{
+		"nm": "MOS",
+		"locat": {
+			"cd": "36",
+			"cmc": "33"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "33"
+		}
+	},
+	{
+		"nm": "NIGRAN",
+		"locat": {
+			"cd": "54",
+			"cmc": "35"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "35"
+		}
+	},
+	{
+		"nm": "O COVELO",
+		"locat": {
+			"cd": "36",
+			"cmc": "13"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "13"
+		}
+	},
+	{
+		"nm": "O GROVE",
+		"locat": {
+			"cd": "36",
+			"cmc": "22"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "22"
+		}
+	},
+	{
+		"nm": "O PORRIÑO",
+		"locat": {
+			"cd": "36",
+			"cmc": "39"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "39"
+		}
+	},
+	{
+		"nm": "O ROSAL",
+		"locat": {
+			"cd": "36",
+			"cmc": "48"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "48"
+		}
+	},
+	{
+		"nm": "OIA",
+		"locat": {
+			"cd": "36",
+			"cmc": "36"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "36"
+		}
+	},
+	{
+		"nm": "PAZOS DE BORBEN",
+		"locat": {
+			"cd": "36",
+			"cmc": "37"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "37"
+		}
+	},
+	{
+		"nm": "POIO",
+		"locat": {
+			"cd": "36",
+			"cmc": "41"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "41"
+		}
+	},
+	{
+		"nm": "PONTE-CALDELAS",
+		"locat": {
+			"cd": "36",
+			"cmc": "43"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "43"
+		}
+	},
+	{
+		"nm": "PONTEAREAS",
+		"locat": {
+			"cd": "36",
+			"cmc": "42"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "42"
+		}
+	},
+	{
+		"nm": "PONTECESURES",
+		"locat": {
+			"cd": "36",
+			"cmc": "44"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "44"
+		}
+	},
+	{
+		"nm": "PONTEVEDRA",
+		"locat": {
+			"cd": "36",
+			"cmc": "900"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "38"
+		}
+	},
+	{
+		"nm": "PORTAS",
+		"locat": {
+			"cd": "36",
+			"cmc": "40"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "40"
+		}
+	},
+	{
+		"nm": "REDONDELA",
+		"locat": {
+			"cd": "36",
+			"cmc": "45"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "45"
+		}
+	},
+	{
+		"nm": "RIBADUMIA",
+		"locat": {
+			"cd": "36",
+			"cmc": "46"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "46"
+		}
+	},
+	{
+		"nm": "RODEIRO",
+		"locat": {
+			"cd": "36",
+			"cmc": "47"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "47"
+		}
+	},
+	{
+		"nm": "SALCEDA DE CASELAS",
+		"locat": {
+			"cd": "36",
+			"cmc": "49"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "49"
+		}
+	},
+	{
+		"nm": "SALVATERRA DE MIÑO",
+		"locat": {
+			"cd": "36",
+			"cmc": "50"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "50"
+		}
+	},
+	{
+		"nm": "SANXENXO",
+		"locat": {
+			"cd": "36",
+			"cmc": "51"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "51"
+		}
+	},
+	{
+		"nm": "SILLEDA",
+		"locat": {
+			"cd": "36",
+			"cmc": "52"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "52"
+		}
+	},
+	{
+		"nm": "SOUTOMAIOR",
+		"locat": {
+			"cd": "36",
+			"cmc": "53"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "53"
+		}
+	},
+	{
+		"nm": "TOMIÑO",
+		"locat": {
+			"cd": "36",
+			"cmc": "54"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "54"
+		}
+	},
+	{
+		"nm": "TUI",
+		"locat": {
+			"cd": "36",
+			"cmc": "55"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "55"
+		}
+	},
+	{
+		"nm": "VALGA",
+		"locat": {
+			"cd": "36",
+			"cmc": "56"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "56"
+		}
+	},
+	{
+		"nm": "VIGO",
+		"locat": {
+			"cd": "54",
+			"cmc": "57"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "57"
+		}
+	},
+	{
+		"nm": "VILA DE CRUCES",
+		"locat": {
+			"cd": "36",
+			"cmc": "59"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "59"
+		}
+	},
+	{
+		"nm": "VILABOA",
+		"locat": {
+			"cd": "36",
+			"cmc": "58"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "58"
+		}
+	},
+	{
+		"nm": "VILAGARCIA DE AROUSA",
+		"locat": {
+			"cd": "36",
+			"cmc": "60"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "60"
+		}
+	},
+	{
+		"nm": "VILANOVA DE AROUSA",
+		"locat": {
+			"cd": "36",
+			"cmc": "61"
+		},
+		"loine": {
+			"cp": "36",
+			"cm": "61"
+		}
+	}
+]

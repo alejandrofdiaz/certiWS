@@ -1,0 +1,20 @@
+{
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		".vscode": true
+	},
+	"editor.insertSpaces": false,
+	"editor.tabCompletion": true,
+	"editor.rulers": [
+		90
+	],
+	"workbench.welcome.enabled": false,
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact"
+	]
+}
