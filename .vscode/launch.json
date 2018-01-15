@@ -5,13 +5,13 @@
 			"type": "node",
 			"request": "launch",
 			"name": "Test Pupeeter",
-			"program": "${workspaceRoot}/ws/etiqueta_rendering/test.js"
+			"program": "${workspaceRoot}/src/etiqueta_rendering/test.js"
 		},
 		{
 			"type": "node",
 			"request": "launch",
 			"name": "CertiWS",
-			"program": "${workspaceRoot}/ws/server.js"
+			"program": "${workspaceRoot}/src/server.js"
 		}
 	]
 }
