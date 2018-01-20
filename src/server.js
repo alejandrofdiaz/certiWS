@@ -62,9 +62,7 @@ app.post('/retrieveEtiquetaPDF', (req, res) => {
   files.uploadDir = path.resolve(__dirname, 'temp');
   files.parse(req, async (err, fields, files) => {
     const xml = files['xml'];
-
-    const test = await CEEPdfRendering.getPDFFromXml(xml.path);
+    const filePath = await CEEPdfRendering.getPDFFromXml(xml.path);
+    res.json(filePath);
   });
-
-  res.json('holaaa');
 });

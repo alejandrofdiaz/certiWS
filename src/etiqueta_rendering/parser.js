@@ -1,5 +1,4 @@
 const xmlToJS = require('xml-js').xml2js;
-const fs = require('fs');
 
 class SummaryCertificado {
   constructor() {
@@ -19,6 +18,14 @@ class SummaryCertificado {
     this.datosEdificio = '';
   }
 
+  /**
+   * @param {string} value
+   * @returns {void}
+   */
+  setRegistro(value) {
+    this.registro = value;
+  }
+
   generateResumen() {
     this.datosEdificio = `
 		Construccion - ${this.anio}
@@ -27,7 +34,14 @@ class SummaryCertificado {
   }
 }
 
-const parseDataFromSummary = xml => {
+/**
+ * Takes xml in string format and retrieves a parsed SummaryCertificado class like
+ * to feed render method.
+ *
+ * @param {string} xml
+ * @returns {SummaryCertificado}
+ */
+function parseDataFromSummary(xml) {
   const _xml = xmlToJS(xml).elements[0];
   const summary = new SummaryCertificado();
 
@@ -128,6 +142,6 @@ const parseDataFromSummary = xml => {
   } else {
     return null;
   }
-};
+}
 
-module.exports = { parseDataFromSummary, SummaryCertificado };
+module.exports = { parseDataFromSummary };

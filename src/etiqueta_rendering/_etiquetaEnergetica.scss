@@ -10,7 +10,7 @@ $e_color: #efb51d;
 $f_color: #e07527;
 $g_color: #e32f28;
 
-@import './eulogo';
+@import './_eulogo';
 
 *{
 	font-family: 'Arial Condensed','Arial Narrow','Arial'
@@ -23,7 +23,7 @@ body{
 	background: white;
 
 	@media print{
-		margin:0;					
+		margin:0;
 	}
 }
 
@@ -54,7 +54,7 @@ body{
 	&__title, &__subtitle{
 		text-transform: uppercase;
 		color: $green_1;
-		font-size: 7.66mm;		
+		font-size: 7.66mm;
 		margin:0;
 	}
 
@@ -63,12 +63,12 @@ body{
 		padding: 6mm 0 0 8mm;
 	}
 	&__subtitle{
-		font-weight: normal;		
+		font-weight: normal;
 		padding-left: 8mm;
 		letter-spacing: 1.3px;
 		&--appendix{
 			margin-left: 20mm;
-			letter-spacing: 0;			
+			letter-spacing: 0;
 		}
 	}
 
@@ -93,7 +93,7 @@ body{
 		box-sizing: border-box;
 		&--container{
 			display: flex;
-			
+
 		}
 		width: 100%;
 		padding: 0 2.5mm;
@@ -151,8 +151,8 @@ body{
 		padding: 0 2.5mm;
 		width: 100%;
 		&__header{
-			padding:0;	
-			margin: 0;			
+			padding:0;
+			margin: 0;
 			&--main{
 				font-weight: bolder;
 				text-align: left;
@@ -169,17 +169,17 @@ body{
 		&__row{
 			>td{
 				padding: 0;
-				height: 14.5mm;			
+				height: 14.5mm;
 				&:first-child{
 					border-radius: 2mm;
 				}
-				&:not(:last-child){		
-					border-right: 1.75mm solid $gray_1;		
+				&:not(:last-child){
+					border-right: 1.75mm solid $gray_1;
 				}
 			}
 			&:not(:last-child){
 				>td{
-					border-bottom: 2.8mm solid $gray_1;									
+					border-bottom: 2.8mm solid $gray_1;
 				}
 			}
 			background-color: white;
@@ -190,9 +190,9 @@ body{
 		}
 		&__result{
 			font-weight: bolder;
-			$height: (14.5mm - 1mm);			
+			$height: (14.5mm - 1mm);
 			position: relative;
-			font-size: 10.5mm;			
+			font-size: 10.5mm;
 			padding: 1mm 2mm;
 			border-top-right-radius: 2mm;
 			border-bottom-right-radius: 2mm;
@@ -207,8 +207,8 @@ body{
 				position: absolute;
 				top:0;
 				left: ($height/4)*-1;
-				width: 0; 
-				height: 0; 
+				width: 0;
+				height: 0;
 				border-top: ($height/2) solid transparent;
 				border-bottom: ($height/2) solid transparent;
 				border-right: ($height/4) solid #000000;
@@ -251,8 +251,8 @@ body{
 			content: ' ';
 			position: absolute;
 			right: ($height/2)*-1;
-			width: 0; 
-			height: 0; 
+			width: 0;
+			height: 0;
 			border-top: ($height/2) solid transparent;
 			border-bottom: ($height/2) solid transparent;
 			border-left: ($height/2) solid red;
@@ -261,49 +261,49 @@ body{
 		&__a{
 			background-color: $a_color;
 			&::after{
-				border-left-color: $a_color;				
+				border-left-color: $a_color;
 			}
 			width: 30mm;
 		}
 		&__b{
 			background-color: $b_color;
 			&::after{
-				border-left-color: $b_color;				
+				border-left-color: $b_color;
 			}
 			width: 42mm;
 		}
 		&__c{
 			background-color: $c_color;
-			width: 54mm;	
+			width: 54mm;
 			&::after{
-				border-left-color: $c_color;				
-			}		
+				border-left-color: $c_color;
+			}
 		}
 		&__d{
-			background-color: $d_color;		
+			background-color: $d_color;
 			width: 66mm;
 			&::after{
-				border-left-color: $d_color;				
+				border-left-color: $d_color;
 			}
 		}
 		&__e{
 			background-color: $e_color;
-			width: 78mm;			
+			width: 78mm;
 			&::after{
-				border-left-color: $e_color;				
+				border-left-color: $e_color;
 			}
 		}
 		&__f{
 			background-color: $f_color;
-			width: 90mm;	
+			width: 90mm;
 			&::after{
-				border-left-color: $f_color;				
+				border-left-color: $f_color;
 			}
 		}
 		&__g{
 			background-color: $g_color;
 			&::after{
-				border-left-color: $g_color;				
+				border-left-color: $g_color;
 			}
 		}
 	}
@@ -315,7 +315,7 @@ body{
 			font-weight: normal;
 			color: $gray_2;
 			text-align: right;
-			padding-right: 4mm;			
+			padding-right: 4mm;
 		}
 	}
 
