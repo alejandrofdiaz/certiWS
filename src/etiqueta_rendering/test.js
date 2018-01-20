@@ -1,11 +1,11 @@
-const parser = require('./parser')
-const contentHtml = require('./contentHtml')
+const parser = require('./parser');
+const contentHtml = require('./contentHtml');
+const fs = require('fs');
+const path = require('path');
 
-const test = new parser.SummaryCertificado();
+const xml = fs.readFileSync(path.resolve(__dirname, '../../docs/XMLTest.xml'), {
+  encoding: 'utf8'
+});
 
-test.anio = 1888;
-test.normativa = 'hooola';
-test.comunidadAutonoma = '231233';
-test.referenciaCatastral = '3213213';
-test.generateResumen();
-contentHtml.fillWithData(test)
+const parsed = parser.parseDataFromSummary(xml);
+console.log(parsed);

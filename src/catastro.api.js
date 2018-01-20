@@ -56,12 +56,12 @@ class UnidadConstructiva {
 
 class ConsultaDNP {
 	constructor() {
-		this.cn = ''; //<cn>TIPO DE BIEN INMUEBLE</cn>		
-		this.pc1 = ''; //<pc1> POSICIONES 1-7 DE LA REFERENCIA CATASTRAL (RC) DEL INMUEBLE</pc1>		
-		this.pc2 = ''; //<pc2>POSICIONES 8-14 DE LA RC DEL INMUEBLE</pc1>		
-		this.car = ''; //<car>POSICIONES 15-19 DE LA RC (CARGO)</car>		
-		this.cc1 = ''; //<cc1>PRIMER DÍGITO DE CONTROL DE LA RC</cc1>		
-		this.cc2 = ''; //<cc2>SEGUNDO DÍGITO DE CONTROL DE LA RC </cc2>		
+		this.cn = ''; //<cn>TIPO DE BIEN INMUEBLE</cn>
+		this.pc1 = ''; //<pc1> POSICIONES 1-7 DE LA REFERENCIA CATASTRAL (RC) DEL INMUEBLE</pc1>
+		this.pc2 = ''; //<pc2>POSICIONES 8-14 DE LA RC DEL INMUEBLE</pc1>
+		this.car = ''; //<car>POSICIONES 15-19 DE LA RC (CARGO)</car>
+		this.cc1 = ''; //<cc1>PRIMER DÍGITO DE CONTROL DE LA RC</cc1>
+		this.cc2 = ''; //<cc2>SEGUNDO DÍGITO DE CONTROL DE LA RC </cc2>
 		this.cm = ''; //código municipio
 		this.cp = ''; //código provincia
 		this.cmc = '';
@@ -87,7 +87,7 @@ class ConsultaDNP {
 			cpt: '', //COEFICIENTE DE PARTICIPACIÓN
 			ant: ''  //ANTIGUEDAD
 		}
-		this.lcons = []; //<lcons>LISTA DE UNIDADES CONSTRUCTIVAS		
+		this.lcons = []; //<lcons>LISTA DE UNIDADES CONSTRUCTIVAS
 	}
 
 
@@ -150,7 +150,7 @@ const DNPRCXmlHelper = body => {
 	const _body = xmlToJS(body);
 
 	_body
-		.elements[0].elements//consulta_dnp 
+		.elements[0].elements//consulta_dnp
 		.find(item => item.name === 'bico').elements
 		.find(item => item.name === 'bi').elements
 		.forEach(item => {
@@ -256,7 +256,7 @@ const DNPRCXmlHelper = body => {
 		}, _parcela);
 
 	_parcela.lcons = _body
-		.elements[0].elements//consulta_dnp 
+		.elements[0].elements//consulta_dnp
 		.find(item => item.name === 'bico').elements
 		.find(item => item.name === 'lcons').elements
 		.filter(item => item.name === 'cons')
