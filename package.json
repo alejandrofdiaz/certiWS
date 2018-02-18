@@ -4,20 +4,61 @@
   "description": "API para certi",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:verbose": "jest --verbose",
+    "test:watch": "jest --watchAll",
+    "build": "npm run test && rimraf ./build && gulp",
+    "prepare": "npm run build",
+    "publish:server": "npm publish"
   },
   "keywords": [
     "certi"
   ],
-  "author": "Alejandro Curtis",
-  "license": "ISC",
+  "author": "Alejandro Frías",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
     "express": "^4.16.2",
-    "node-sass": "^4.7.2",
-    "puppeteer": "^1.0.0",
     "request": "^2.83.0",
     "utm": "^1.1.1",
     "xml-js": "^1.6.2"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.8",
+    "@types/cors": "^2.8.3",
+    "@types/jest": "^22.1.3",
+    "@types/node": "^9.4.6",
+    "@types/request": "^2.47.0",
+    "@types/xml-js": "^1.0.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-remove-console": "^6.9.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-minify": "^0.3.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-typescript": "^4.0.1",
+    "jest": "^22.3.0",
+    "merge2": "^1.2.1",
+    "rimraf": "^2.6.2",
+    "ts-jest": "^22.0.4",
+    "ts-node": "^4.1.0",
+    "tslint": "^5.9.1",
+    "typescript": "^2.7.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
   }
 }
