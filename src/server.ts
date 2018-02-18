@@ -24,11 +24,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
  * Enable Cors
  */
 app.use(cors());
-// app.use((req, res, next) => {
-//   res.header('Access-Control-Allow-Origin', '*');
-//   res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
-//   next();
-// });
 
 app.get('/testCaptcha', (req, res) => {
   const verificationUrl: request.OptionsWithUri = {
@@ -53,15 +48,23 @@ app.get('/testCaptcha', (req, res) => {
 });
 
 app.get('/getRC', (req, res) => {
-  catastroApi
-    .getReferenciasCatastrales(req.query.lat, req.query.long)
-    .then(response => res.json(response), response => res.json(response));
+  catastroApi.getReferenciasCatastrales(req.query.lat, req.query.long).then(
+    response => res.json(response),
+    response => {
+      res.status(424);
+      res.send();
+    }
+  );
 });
 
 app.get('/getDNPPP', (req, res) => {
-  catastroApi
-    .getCatastroDatosNoProtegidos(req.query)
-    .then(response => res.json(response), response => res.json(response));
+  catastroApi.getCatastroDatosNoProtegidos(req.query).then(
+    response => res.json(response),
+    response => {
+      res.status(424);
+      res.send();
+    }
+  );
 });
 
 app.listen(8080, () => {

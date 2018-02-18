@@ -1,4 +1,4 @@
-const testRequest = `<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <consulta_dnp xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.catastro.meh.es/">
   <control>
     <cudnp>1</cudnp>
@@ -10,8 +10,8 @@ const testRequest = `<?xml version="1.0" encoding="utf-8"?>
       <idbi>
         <cn>UR</cn>
         <rc>
-          <pc1>6228817</pc1>
-          <pc2>VK2662N</pc2>
+          <pc1>1111111</pc1>
+          <pc2>1111111</pc2>
           <car>0001</car>
           <cc1>O</cc1>
           <cc2>D</cc2>
@@ -31,7 +31,7 @@ const testRequest = `<?xml version="1.0" encoding="utf-8"?>
               <dir>
                 <cv>921</cv>
                 <tv>CL</tv>
-                <nv>CAMBRAY</nv>
+                <nv>PRUEBA</nv>
                 <pnp>7</pnp>
               </dir>
               <loint>
@@ -39,13 +39,13 @@ const testRequest = `<?xml version="1.0" encoding="utf-8"?>
                 <pt>OD</pt>
                 <pu>OS</pu>
               </loint>
-              <dp>28938</dp>
+              <dp>28888</dp>
               <dm>4</dm>
             </lourb>
           </lous>
         </locs>
       </dt>
-      <ldt>CL CAMBRAY 7 28938 MOSTOLES (MADRID)</ldt>
+      <ldt>CL PRUEBA 7 28888 MOSTOLES (MADRID)</ldt>
       <debi>
         <luso>Residencial</luso>
         <sfc>204</sfc>
@@ -116,12 +116,4 @@ const testRequest = `<?xml version="1.0" encoding="utf-8"?>
       </cons>
     </lcons>
   </bico>
-</consulta_dnp>`;
-
-
-describe('Start',()=>{
-
-  test('Void test',()=>{
-    expect(2+2).toBe(4);
-  })
-})
+</consulta_dnp>

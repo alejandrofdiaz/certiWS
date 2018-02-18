@@ -77,112 +77,96 @@ function isValidListReferenciaCatastral(xmlElement: any): boolean {
   return !!xmlElement.consulta_coordenadas_distancias.coordenadas_distancias.coordd.lpcd;
 }
 
-function DNPRCXmlHelper(body: string) {
+function consultaDNPRBodyParser(body: string) {
   let _parcela = new ConsultaDNP();
-  const _body = xmlToJS(body, xml2JsConfig);
+  const _body = xmlToJS(body, xml2JsConfig).consulta_dnp;
+  const _bodyBi = _body.bico.bi;
 
-  _body.elements[0].elements //consulta_dnp
-    .find(item => item.name === 'bico')
-    .elements.find(item => item.name === 'bi')
-    .elements.forEach(item => {
-      switch (item.name) {
-        case 'idbi':
-          _parcela.cn = item.elements.find(el => el.name === 'cn').elements[0].text;
-          _parcela.pc1 = item.elements
-            .find(el => el.name === 'rc')
-            .elements.find(el => el.name === 'pc1').elements[0].text;
-          _parcela.pc2 = item.elements
-            .find(el => el.name === 'rc')
-            .elements.find(el => el.name === 'pc1').elements[0].text;
-          _parcela.car = item.elements
-            .find(el => el.name === 'rc')
-            .elements.find(el => el.name === 'car').elements[0].text;
-          _parcela.cc1 = item.elements
-            .find(el => el.name === 'rc')
-            .elements.find(el => el.name === 'cc1').elements[0].text;
-          _parcela.cc2 = item.elements
-            .find(el => el.name === 'rc')
-            .elements.find(el => el.name === 'cc2').elements[0].text;
-          break;
-        case 'dt':
-          _parcela.cp = item.elements
-            .find(el => el.name === 'loine')
-            .elements.find(el => el.name === 'cp').elements[0].text;
-          _parcela.cm = item.elements
-            .find(el => el.name === 'loine')
-            .elements.find(el => el.name === 'cm').elements[0].text;
-          _parcela.cmc = item.elements.find(el => el.name === 'cmc').elements[0].text;
-          _parcela.np = item.elements.find(el => el.name === 'np').elements[0].text;
-          _parcela.nm = item.elements.find(el => el.name === 'nm').elements[0].text;
+  /**
+   * bi -> Ibdi
+   */
+  const _bodyIbdi = _bodyBi.idbi;
+  _parcela.cn = _bodyIbdi.cn._text;
 
-          const _lourb = item.elements
-            .find(el => el.name === 'locs')
-            .elements.find(el => el.name === 'lous')
-            .elements.find(el => el.name === 'lourb').elements;
+  /**
+   * bi -> Ibdi -> Rc
+   */
+  const _bodyRC = _bodyIbdi.rc;
+  _parcela.pc1 = _bodyRC.pc1._text;
+  _parcela.pc2 = _bodyRC.pc2._text;
+  _parcela.car = _bodyRC.car._text;
+  _parcela.cc1 = _bodyRC.cc1._text;
+  _parcela.cc2 = _bodyRC.cc2._text;
 
-          _parcela.dir = {
-            cv: _lourb.find(el => el.name === 'dir').elements.find(el => el.name == 'cv')
-              .elements[0].text,
-            tv: _lourb.find(el => el.name === 'dir').elements.find(el => el.name == 'tv')
-              .elements[0].text,
-            nv: _lourb.find(el => el.name === 'dir').elements.find(el => el.name == 'nv')
-              .elements[0].text,
-            pnp: _lourb.find(el => el.name === 'dir').elements.find(el => el.name == 'pnp')
-              .elements[0].text
-          };
+  /**
+   * bi -> dt
+   */
+  const _bodyDt = _bodyBi.dt;
 
-          _parcela.loint = {
-            es: _lourb.find(el => el.name === 'loint').elements.find(el => el.name == 'es')
-              .elements[0].text,
-            pt: _lourb.find(el => el.name === 'loint').elements.find(el => el.name == 'pt')
-              .elements[0].text,
-            pu: _lourb.find(el => el.name === 'loint').elements.find(el => el.name == 'pu')
-              .elements[0].text
-          };
+  _parcela.cp = _bodyDt.loine.cp._text;
+  _parcela.cm = _bodyDt.loine.cm._text;
+  _parcela.cmc = _bodyDt.cmc._text;
+  _parcela.np = _bodyDt.np._text;
+  _parcela.nm = _bodyDt.nm._text;
 
-          _parcela.dp = _lourb.find(el => el.name == 'dp').elements[0].text;
-          _parcela.dm = _lourb.find(el => el.name == 'dm').elements[0].text;
-          break;
-        case 'ldt':
-          _parcela.ldt = item.elements[0].text;
-          break;
-        case 'debi':
-          _parcela.debi = {
-            luso: item.elements.find(el => el.name === 'luso').elements[0].text,
-            sfc: item.elements.find(el => el.name === 'sfc').elements[0].text,
-            cpt: item.elements.find(el => el.name === 'cpt').elements[0].text,
-            ant: item.elements.find(el => el.name === 'ant').elements[0].text
-          };
-          break;
-        default:
-          break;
-      }
-    }, _parcela);
+  /**
+   * bi -> dt -> locs -> lous-> lourb
+   */
+  const _bodyLourb = _bodyDt.locs.lous.lourb;
 
-  _parcela.lcons = _body.elements[0].elements //consulta_dnp
-    .find(item => item.name === 'bico')
-    .elements.find(item => item.name === 'lcons')
-    .elements.filter(item => item.name === 'cons')
-    .map(cons => {
-      let unidadCons = new UnidadConstructiva();
+  _parcela.dp = _bodyLourb.dp._text;
+  _parcela.dm = _bodyLourb.dm._text;
 
-      let _loint = cons.elements
-        .find(el => el.name === 'dt')
-        .elements.find(el => el.name === 'lourb')
-        .elements.find(el => el.name === 'loint').elements;
+  _parcela.dir = {
+    cv: _bodyLourb.dir.cv._text,
+    tv: _bodyLourb.dir.tv._text,
+    nv: _bodyLourb.dir.nv._text,
+    pnp: _bodyLourb.dir.pnp._text
+  };
 
-      unidadCons.lcd = cons.elements.find(el => el.name === 'lcd').elements[0].text;
-      unidadCons.es = _loint.find(el => el.name === 'es').elements[0].text;
-      unidadCons.pt = _loint.find(el => el.name === 'pt').elements[0].text;
-      unidadCons.pu = _loint.find(el => el.name === 'pu').elements[0].text;
-      unidadCons.stl = cons.elements
-        .find(el => el.name === 'dfcons')
-        .elements.find(el => el.name === 'stl').elements[0].text;
+  _parcela.loint = {
+    es: _bodyLourb.loint.es._text,
+    pt: _bodyLourb.loint.pt._text,
+    pu: _bodyLourb.loint.pu._text
+  };
 
-      return unidadCons;
-    });
+  /**
+   * bi -> ldt
+   */
+  _parcela.ldt = _bodyBi.ldt._text;
 
+  /**
+   * bi -> debi
+   */
+  const _bodyDebi = _bodyBi.debi;
+  _parcela.debi = {
+    luso: _bodyDebi.luso._text,
+    sfc: _bodyDebi.sfc._text,
+    cpt: _bodyDebi.cpt._text,
+    ant: _bodyDebi.ant._text
+  };
+
+  /**
+   * Lcons
+   */
+  let _bodyLcons = <any[]>_body.bico.lcons.cons || [];
+
+  if (!isArray(_bodyLcons)) _bodyLcons = [_bodyLcons];
+
+  _parcela.lcons = _bodyLcons.map(item => {
+    let unidadCons = new UnidadConstructiva();
+
+    unidadCons.lcd = item.lcd._text;
+    unidadCons.stl = item.dfcons.stl._text;
+
+    const _loint = item.dt.lourb.loint;
+
+    unidadCons.es = _loint.es._text;
+    unidadCons.pt = _loint.pt._text;
+    unidadCons.pu = _loint.pu._text;
+    return unidadCons;
+  });
   return _parcela;
 }
 
-export { refCatastralSimplifiedListParser, DNPRCXmlHelper };
+export { refCatastralSimplifiedListParser, consultaDNPRBodyParser };

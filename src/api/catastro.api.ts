@@ -18,7 +18,7 @@ import * as municipiosApi from './municipios.api';
 /**
  * Utils
  */
-import { DNPRCXmlHelper, refCatastralSimplifiedListParser } from '../common/catastro.data.utils';
+import { consultaDNPRBodyParser, refCatastralSimplifiedListParser } from '../common/catastro.data.utils';
 
 /**
  * Constants
@@ -135,7 +135,7 @@ function getCatastroDatosNoProtegidos(
           reject(body);
           break;
         case 200:
-          resolve(DNPRCXmlHelper(body));
+          resolve(consultaDNPRBodyParser(body));
           break;
         default:
           reject(body);
