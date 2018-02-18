@@ -20,6 +20,8 @@ interface DebiModel {
   ant?: string; //ANTIGUEDAD
 }
 
+export { DireccionModel, LointModel, DebiModel };
+
 class ConsultaDNP {
   cn: string = ''; //<cn>TIPO DE BIEN INMUEBLE</cn>
   pc1: string = ''; //<pc1> POSICIONES 1-7 DE LA REFERENCIA CATASTRAL (RC) DEL INMUEBLE</pc1>

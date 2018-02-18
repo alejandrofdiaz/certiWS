@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<consulta_coordenadas_distancias xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.catastro.meh.es/">
+  <control>
+    <cucoor>1</cucoor>
+    <cuerr>0</cuerr>
+  </control>
+  <coordenadas_distancias>
+    <coordd>
+      <geo>
+        <xcen>420236.45501681126</xcen>
+        <ycen>4477524.369990671</ycen>
+        <srs>EPSG:32630</srs>
+      </geo>
+      <lpcd>
+        <pcd>
+          <pc>
+            <pc1>28022A0</pc1>
+            <pc2>3000001</pc2>
+          </pc>
+          <dt>
+            <loine>
+              <cp>28</cp>
+              <cm>22</cm>
+            </loine>
+            <lourb>
+              <dir>
+                <pnp>-1</pnp>
+              </dir>
+            </lourb>
+          </dt>
+          <ldt>Polígono 30 Parcela 1 ROMANILLOS. BOADILLA DEL MONTE (MADRID)</ldt>
+          <dis>0</dis>
+        </pcd>
+      </lpcd>
+    </coordd>
+  </coordenadas_distancias>
+</consulta_coordenadas_distancias>

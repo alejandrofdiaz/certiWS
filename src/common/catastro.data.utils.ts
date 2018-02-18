@@ -2,12 +2,12 @@
  * Libraries
  */
 import { xml2js as xmlToJS, Options } from 'xml-js';
+import { isArray } from 'lodash';
 
 /**
  * Models
  */
 import CatastroSimplifiedElement from '../models/CatastroSimplifiedElement.model';
-import Subparcela from '../models/Subparcela.model';
 import UnidadConstructiva from '../models/UnidadConstructiva.model';
 import ConsultaDNP from '../models/ConsultaDNP.model';
 
@@ -30,51 +30,51 @@ const xml2JsConfig: Options.XML2JS = {
  * @returns {CatastroSimplifiedElement[]}
  */
 function refCatastralSimplifiedListParser(xmlBody: string): CatastroSimplifiedElement[] {
-  const test = xmlToJS(xmlBody, xml2JsConfig).consulta_coordenadas_distancias.coordenadas_distancias
-    .coordd.lpcd.pcd;
-  console.log(test);
-  return xmlToJS(xmlBody)
-    .elements[0].elements //consulta_coordenadas_distancias
-    .find(el => el.name === 'coordenadas_distancias')
-    .elements.find(el => el.name === 'coordd')
-    .elements.find(el => el.name === 'lpcd')
-    .elements.filter(el => el.name === 'pcd')
-    .map(_el => {
-      let simplifiedElement = new CatastroSimplifiedElement();
-      try {
-        simplifiedElement.pc1 = _el.elements
-          .find(el => el.name === 'pc')
-          .elements.find(el => el.name === 'pc1').elements[0].text;
-        simplifiedElement.pc2 = _el.elements
-          .find(el => el.name === 'pc')
-          .elements.find(el => el.name === 'pc2').elements[0].text;
+  const xmlParsed = xmlToJS(xmlBody, xml2JsConfig);
+  if (isValidListReferenciaCatastral(xmlParsed)) {
+    let parcelasCatastralesFound = <any[] | any>xmlParsed.consulta_coordenadas_distancias
+      .coordenadas_distancias.coordd.lpcd.pcd;
 
-        simplifiedElement.cp = _el.elements
-          .find(el => el.name === 'dt')
-          .elements.find(el => el.name === 'loine')
-          .elements.find(el => el.name === 'cp').elements[0].text;
-        simplifiedElement.cm = _el.elements
-          .find(el => el.name === 'dt')
-          .elements.find(el => el.name === 'loine')
-          .elements.find(el => el.name === 'cm').elements[0].text;
-        simplifiedElement.cv = _el.elements
-          .find(el => el.name === 'dt')
-          .elements.find(el => el.name === 'lourb')
-          .elements.find(el => el.name === 'dir')
-          .elements.find(el => el.name === 'cv').elements[0].text;
-        simplifiedElement.pnp = _el.elements
-          .find(el => el.name === 'dt')
-          .elements.find(el => el.name === 'lourb')
-          .elements.find(el => el.name === 'dir')
-          .elements.find(el => el.name === 'pnp').elements[0].text;
-        simplifiedElement.ldt = _el.elements.find(el => el.name === 'ldt').elements[0].text;
-        simplifiedElement.dis = _el.elements.find(el => el.name === 'dis').elements[0].text;
-      } catch (err) {
-        throw new Error(err);
-      }
-      return simplifiedElement;
-    })
-    .sort((a, b) => a.dis - b.dis); //Ordena ascendente por distancia
+    /**
+     * Sometimes, when xml fetching only retrieves 1 element, our xml library doesn't know
+     * that a xml node should be an array with children nodes.
+     */
+    if (!isArray(parcelasCatastralesFound)) {
+      parcelasCatastralesFound = [parcelasCatastralesFound];
+    }
+
+    return (
+      parcelasCatastralesFound
+        .map(el => {
+          let simplifiedElement = new CatastroSimplifiedElement();
+          simplifiedElement.pc1 = el.pc ? el.pc.pc1._text : '';
+          simplifiedElement.pc2 = el.pc ? el.pc.pc2._text : '';
+          simplifiedElement.cp = el.dt.loine ? el.dt.loine.cp._text : '';
+          simplifiedElement.cm = el.dt.loine ? el.dt.loine.cm._text : '';
+          simplifiedElement.cv = el.dt.lourb.dir.cv ? el.dt.lourb.dir.cv._text : '';
+          simplifiedElement.pnp = el.dt.lourb.dir.pnp ? el.dt.lourb.dir.pnp._text : '';
+          simplifiedElement.ldt = el.ldt ? el.ldt._text : '';
+          simplifiedElement.dis = el.dis ? el.dis._text : '';
+          return simplifiedElement;
+        })
+        /**
+         * Sorts array, closest first.
+         */
+        .sort((a, b) => a.dis - b.dis)
+    );
+  } else return [];
+}
+
+/**
+ * It takes a XML parsed object and checks if has any element.
+ * It may be triggered as false when a service returns an xml out of the boundaries of
+ * the country.
+ *
+ * @param {any} xmlElement
+ * @returns {boolean} If true or not
+ */
+function isValidListReferenciaCatastral(xmlElement: any): boolean {
+  return !!xmlElement.consulta_coordenadas_distancias.coordenadas_distancias.coordd.lpcd;
 }
 
 function DNPRCXmlHelper(body: string) {

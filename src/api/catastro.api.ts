@@ -111,16 +111,16 @@ function getCatastroDatosNoProtegidos(
   const [service, action] = ['ovccallejero.asmx', 'Consulta_DNPRC'];
 
   const [provincia, municipio] = [
-    municipiosApi.getProvincia(inmuebleSeleccionado.cp),
-    municipiosApi.getMunicipio(inmuebleSeleccionado.cp, inmuebleSeleccionado.cm)
+    municipiosApi.getProvincia(inmuebleSeleccionado.cp) || null,
+    municipiosApi.getMunicipio(inmuebleSeleccionado.cp, inmuebleSeleccionado.cm) || null
   ];
 
   const options = {
     url: `${URL_BASE_CATASTRO}${service}/${action}`,
     method: 'GET',
     qs: {
-      Provincia: provincia.value,
-      Municipio: municipio.nm,
+      Provincia: provincia ? provincia.value : null,
+      Municipio: municipio ? municipio.nm : null,
       RC: `${inmuebleSeleccionado.pc1}${inmuebleSeleccionado.pc2}`
     },
     headers: {

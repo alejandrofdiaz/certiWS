@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<consulta_coordenadas_distancias xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.catastro.meh.es/">
+  <control>
+    <cucoor>1</cucoor>
+    <cuerr>0</cuerr>
+  </control>
+  <coordenadas_distancias>
+    <coordd>
+      <geo>
+        <xcen>687402.060482581</xcen>
+        <ycen>4473135.826494069</ycen>
+        <srs>EPSG:32631</srs>
+      </geo>
+    </coordd>
+  </coordenadas_distancias>
+</consulta_coordenadas_distancias>

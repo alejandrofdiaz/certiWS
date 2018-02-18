@@ -7,6 +7,7 @@ import PROVINCIAS from '../assets/provincias';
  * Models
  */
 import MunicipioModel from '../models/Municipio.model';
+import ProvinciaModel from '../models/Provincia.model';
 
 /**
  * Assets
@@ -195,7 +196,7 @@ function getMunicipio(provincia: string, municipio: string): MunicipioModel {
  * @param {string} ine
  * @returns {ProvinciaModel} Provincia
  */
-function getProvincia(ine: string) {
+function getProvincia(ine: string): ProvinciaModel | undefined {
   return PROVINCIAS.find(item => item.ine === Number(ine));
 }
 
