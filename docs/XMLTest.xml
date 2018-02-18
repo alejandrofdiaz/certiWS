@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DatosEnergeticosDelEdificio version="2.0">
+  <DatosDelCertificador>
+    <NIFEntidad>46887092M</NIFEntidad>
+    <ComunidadAutonoma>Comunidad de Madrid</ComunidadAutonoma>
+    <Titulacion>Grado en Edificación</Titulacion>
+    <Fecha>09/11/2017</Fecha>
+    <NIF>46887092M</NIF>
+    <NombreyApellidos>Alejandro Frías Díaz</NombreyApellidos>
+    <RazonSocial>Alejandro Frías Díaz</RazonSocial>
+    <Municipio>Móstoles</Municipio>
+    <CodigoPostal>28938</CodigoPostal>
+    <Provincia>Madrid</Provincia>
+    <Telefono>653990934</Telefono>
+    <Email>alejandrofdiaz@aparejadoresmadrid.org</Email>
+    <Domicilio>Calle Cambray 9</Domicilio>
+  </DatosDelCertificador>
+  <IdentificacionEdificio>
+    <ReferenciaCatastral>8320411UK7382S0001OG</ReferenciaCatastral>
+    <Provincia>Toledo</Provincia>
+    <ComunidadAutonoma>Castilla - La Mancha</ComunidadAutonoma>
+    <ZonaClimatica>D3</ZonaClimatica>
+    <TipoDeEdificio>ViviendaUnifamiliar</TipoDeEdificio>
+    <NormativaVigente>NBE-CT-79</NormativaVigente>
+    <Direccion>UR PIEDAD LA 14 45530 SANTA OLALLA (TOLEDO)</Direccion>
+    <NombreDelEdificio>Urbanización Piedad14</NombreDelEdificio>
+    <Procedimiento>CEXv2.3</Procedimiento>
+    <CodigoPostal>45530</CodigoPostal>
+    <AlcanceInformacionXML>CertificacionExistente</AlcanceInformacionXML>
+    <Municipio>Santa olalla</Municipio>
+    <AnoConstruccion>1994</AnoConstruccion>
+  </IdentificacionEdificio>
+  <DatosGeneralesyGeometria>
+    <VentilacionUsoResidencial>0.63</VentilacionUsoResidencial>
+    <NumeroDePlantasSobreRasante>99999999.99</NumeroDePlantasSobreRasante>
+    <PorcentajeSuperficieHabitableCalefactada>100</PorcentajeSuperficieHabitableCalefactada>
+    <SuperficieHabitable>140.00</SuperficieHabitable>
+    <DensidadFuentesInternas>0.00</DensidadFuentesInternas>
+    <Compacidad>1.34</Compacidad>
+    <VolumenEspacioHabitable>378.00</VolumenEspacioHabitable>
+    <VentilacionTotal>0.87</VentilacionTotal>
+    <DemandaDiariaACS>100.00</DemandaDiariaACS>
+
+    <NumeroDePlantasBajoRasante>99999999</NumeroDePlantasBajoRasante>
+    <PorcentajeSuperficieHabitableRefrigerada>0</PorcentajeSuperficieHabitableRefrigerada>
+    <PorcentajeSuperficieAcristalada>
+      <E>0</E>
+      <NO>32</NO>
+      <NE>0</NE>
+      <O>0</O>
+      <N>0</N>
+      <S>0</S>
+      <SO>8</SO>
+      <SE>14</SE>
+    </PorcentajeSuperficieAcristalada>
+  </DatosGeneralesyGeometria>
+  <DatosEnvolventeTermica>
+    <CerramientosOpacos>
+      <Elemento>
+        <Tipo>Suelo</Tipo>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.00</Transmitancia>
+        <Nombre>S1</Nombre>
+        <Orientacion>Suelo</Orientacion>
+        <Superficie>60.45</Superficie>
+        <Capas/>
+      </Elemento>
+      <Elemento>
+        <Tipo>Fachada</Tipo>
+        <ModoDeObtencion>Usuario</ModoDeObtencion>
+        <Transmitancia>0.54</Transmitancia>
+        <Nombre>P0 NO M1</Nombre>
+        <Orientacion>NO</Orientacion>
+        <Superficie>14.30</Superficie>
+        <Capas/>
+      </Elemento>
+      <Elemento>
+        <Tipo>Fachada</Tipo>
+        <ModoDeObtencion>Usuario</ModoDeObtencion>
+        <Transmitancia>0.54</Transmitancia>
+        <Nombre>P0 SO M2</Nombre>
+        <Orientacion>SO</Orientacion>
+        <Superficie>20.46</Superficie>
+        <Capas/>
+      </Elemento>
+      <Elemento>
+        <Tipo>Fachada</Tipo>
+        <ModoDeObtencion>Usuario</ModoDeObtencion>
+        <Transmitancia>0.54</Transmitancia>
+        <Nombre>P0 SE M2</Nombre>
+        <Orientacion>SE</Orientacion>
+        <Superficie>14.30</Superficie>
+        <Capas/>
+      </Elemento>
+      <Elemento>
+        <Tipo>Fachada</Tipo>
+        <ModoDeObtencion>Usuario</ModoDeObtencion>
+        <Transmitancia>0.54</Transmitancia>
+        <Nombre>P1 NO M1</Nombre>
+        <Orientacion>NO</Orientacion>
+        <Superficie>17.55</Superficie>
+        <Capas/>
+      </Elemento>
+      <Elemento>
+        <Tipo>Fachada</Tipo>
+        <ModoDeObtencion>Usuario</ModoDeObtencion>
+        <Transmitancia>0.54</Transmitancia>
+        <Nombre>P1 SO M2</Nombre>
+        <Orientacion>SO</Orientacion>
+        <Superficie>24.30</Superficie>
+        <Capas/>
+      </Elemento>
+      <Elemento>
+        <Tipo>Fachada</Tipo>
+        <ModoDeObtencion>Usuario</ModoDeObtencion>
+        <Transmitancia>0.54</Transmitancia>
+        <Nombre>P1 SE M3</Nombre>
+        <Orientacion>SE</Orientacion>
+        <Superficie>17.55</Superficie>
+        <Capas/>
+      </Elemento>
+      <Elemento>
+        <Tipo>Fachada</Tipo>
+        <ModoDeObtencion>Usuario</ModoDeObtencion>
+        <Transmitancia>0.54</Transmitancia>
+        <Nombre>P2 NO M1</Nombre>
+        <Orientacion>NO</Orientacion>
+        <Superficie>17.55</Superficie>
+        <Capas/>
+      </Elemento>
+      <Elemento>
+        <Tipo>Fachada</Tipo>
+        <ModoDeObtencion>Usuario</ModoDeObtencion>
+        <Transmitancia>0.54</Transmitancia>
+        <Nombre>P2 SO M2</Nombre>
+        <Orientacion>SO</Orientacion>
+        <Superficie>21.60</Superficie>
+        <Capas/>
+      </Elemento>
+      <Elemento>
+        <Tipo>Fachada</Tipo>
+        <ModoDeObtencion>Usuario</ModoDeObtencion>
+        <Transmitancia>0.54</Transmitancia>
+        <Nombre>P2 SE M3</Nombre>
+        <Orientacion>SE</Orientacion>
+        <Superficie>17.55</Superficie>
+        <Capas/>
+      </Elemento>
+      <Elemento>
+        <Tipo>Adiabatico</Tipo>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>0.00</Transmitancia>
+        <Nombre>Medianería</Nombre>
+        <Orientacion></Orientacion>
+        <Superficie>95.00</Superficie>
+        <Capas/>
+      </Elemento>
+      <Elemento>
+        <Tipo>Suelo</Tipo>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>0.80</Transmitancia>
+        <Nombre>Suelo con aire</Nombre>
+        <Orientacion>Suelo</Orientacion>
+        <Superficie>5.40</Superficie>
+        <Capas/>
+      </Elemento>
+      <Elemento>
+        <Tipo>Cubierta</Tipo>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>0.90</Transmitancia>
+        <Nombre>Cubierta con aire</Nombre>
+        <Orientacion>Horizontal</Orientacion>
+        <Superficie>52.00</Superficie>
+        <Capas/>
+      </Elemento>
+    </CerramientosOpacos>
+    <HuecosyLucernarios>
+      <Elemento>
+        <Tipo>Hueco</Tipo>
+        <Superficie>6.30</Superficie>
+        <Transmitancia>5.70</Transmitancia>
+        <Nombre>G1</Nombre>
+        <ModoDeObtencionTransmitancia>Estimado</ModoDeObtencionTransmitancia>
+        <Orientacion>NO</Orientacion>
+        <ModoDeObtencionFactorSolar>Estimado</ModoDeObtencionFactorSolar>
+        <FactorSolar>0.15</FactorSolar>
+      </Elemento>
+      <Elemento>
+        <Tipo>Hueco</Tipo>
+        <Superficie>0.70</Superficie>
+        <Transmitancia>3.78</Transmitancia>
+        <Nombre>P0 SO M2 V2</Nombre>
+        <ModoDeObtencionTransmitancia>Estimado</ModoDeObtencionTransmitancia>
+        <Orientacion>SO</Orientacion>
+        <ModoDeObtencionFactorSolar>Estimado</ModoDeObtencionFactorSolar>
+        <FactorSolar>0.61</FactorSolar>
+      </Elemento>
+      <Elemento>
+        <Tipo>Hueco</Tipo>
+        <Superficie>0.70</Superficie>
+        <Transmitancia>3.78</Transmitancia>
+        <Nombre>P0 SE M2 V1</Nombre>
+        <ModoDeObtencionTransmitancia>Estimado</ModoDeObtencionTransmitancia>
+        <Orientacion>SE</Orientacion>
+        <ModoDeObtencionFactorSolar>Estimado</ModoDeObtencionFactorSolar>
+        <FactorSolar>0.63</FactorSolar>
+      </Elemento>
+      <Elemento>
+        <Tipo>Hueco</Tipo>
+        <Superficie>1.68</Superficie>
+        <Transmitancia>3.78</Transmitancia>
+        <Nombre>P1 NO M1 V3</Nombre>
+        <ModoDeObtencionTransmitancia>Estimado</ModoDeObtencionTransmitancia>
+        <Orientacion>NO</Orientacion>
+        <ModoDeObtencionFactorSolar>Estimado</ModoDeObtencionFactorSolar>
+        <FactorSolar>0.61</FactorSolar>
+      </Elemento>
+      <Elemento>
+        <Tipo>Hueco</Tipo>
+        <Superficie>2.31</Superficie>
+        <Transmitancia>2.20</Transmitancia>
+        <Nombre>P1 NO M1 P1</Nombre>
+        <ModoDeObtencionTransmitancia>Estimado</ModoDeObtencionTransmitancia>
+        <Orientacion>NO</Orientacion>
+        <ModoDeObtencionFactorSolar>Estimado</ModoDeObtencionFactorSolar>
+        <FactorSolar>0.08</FactorSolar>
+      </Elemento>
+      <Elemento>
+        <Tipo>Hueco</Tipo>
+        <Superficie>0.84</Superficie>
+        <Transmitancia>3.78</Transmitancia>
+        <Nombre>P1 SO M2 v4</Nombre>
+        <ModoDeObtencionTransmitancia>Estimado</ModoDeObtencionTransmitancia>
+        <Orientacion>SO</Orientacion>
+        <ModoDeObtencionFactorSolar>Estimado</ModoDeObtencionFactorSolar>
+        <FactorSolar>0.61</FactorSolar>
+      </Elemento>
+      <Elemento>
+        <Tipo>Hueco</Tipo>
+        <Superficie>1.40</Superficie>
+        <Transmitancia>3.78</Transmitancia>
+        <Nombre>P1 SO M2 V2</Nombre>
+        <ModoDeObtencionTransmitancia>Estimado</ModoDeObtencionTransmitancia>
+        <Orientacion>SO</Orientacion>
+        <ModoDeObtencionFactorSolar>Estimado</ModoDeObtencionFactorSolar>
+        <FactorSolar>0.61</FactorSolar>
+      </Elemento>
+      <Elemento>
+        <Tipo>Hueco</Tipo>
+        <Superficie>2.31</Superficie>
+        <Transmitancia>3.95</Transmitancia>
+        <Nombre>P1 SO M2 P1</Nombre>
+        <ModoDeObtencionTransmitancia>Estimado</ModoDeObtencionTransmitancia>
+        <Orientacion>SO</Orientacion>
+        <ModoDeObtencionFactorSolar>Estimado</ModoDeObtencionFactorSolar>
+        <FactorSolar>0.44</FactorSolar>
+      </Elemento>
+      <Elemento>
+        <Tipo>Hueco</Tipo>
+        <Superficie>1.68</Superficie>
+        <Transmitancia>3.78</Transmitancia>
+        <Nombre>P1 SE M3 V4</Nombre>
+        <ModoDeObtencionTransmitancia>Estimado</ModoDeObtencionTransmitancia>
+        <Orientacion>SE</Orientacion>
+        <ModoDeObtencionFactorSolar>Estimado</ModoDeObtencionFactorSolar>
+        <FactorSolar>0.26</FactorSolar>
+      </Elemento>
+      <Elemento>
+        <Tipo>Hueco</Tipo>
+        <Superficie>1.68</Superficie>
+        <Transmitancia>3.78</Transmitancia>
+        <Nombre>P1 SE M3 V3</Nombre>
+        <ModoDeObtencionTransmitancia>Estimado</ModoDeObtencionTransmitancia>
+        <Orientacion>SE</Orientacion>
+        <ModoDeObtencionFactorSolar>Estimado</ModoDeObtencionFactorSolar>
+        <FactorSolar>0.45</FactorSolar>
+      </Elemento>
+      <Elemento>
+        <Tipo>Hueco</Tipo>
+        <Superficie>5.46</Superficie>
+        <Transmitancia>4.02</Transmitancia>
+        <Nombre>P2 NO M1 V5</Nombre>
+        <ModoDeObtencionTransmitancia>Estimado</ModoDeObtencionTransmitancia>
+        <Orientacion>NO</Orientacion>
+        <ModoDeObtencionFactorSolar>Estimado</ModoDeObtencionFactorSolar>
+        <FactorSolar>0.54</FactorSolar>
+      </Elemento>
+      <Elemento>
+        <Tipo>Hueco</Tipo>
+        <Superficie>2.88</Superficie>
+        <Transmitancia>4.14</Transmitancia>
+        <Nombre>P2 SE M3 V6</Nombre>
+        <ModoDeObtencionTransmitancia>Estimado</ModoDeObtencionTransmitancia>
+        <Orientacion>SE</Orientacion>
+        <ModoDeObtencionFactorSolar>Estimado</ModoDeObtencionFactorSolar>
+        <FactorSolar>0.43</FactorSolar>
+      </Elemento>
+    </HuecosyLucernarios>
+    <PuentesTermicos>
+      <Elemento>
+        <Nombre>PT Pilar integrado en fachada-P0 NO M1</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.05</Transmitancia>
+        <Tipo>Pilar integrado en fachada</Tipo>
+        <Longitud>6.60</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Pilar en Esquina-P0 NO M1</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>0.78</Transmitancia>
+        <Tipo>Pilar en Esquina</Tipo>
+        <Longitud>2.20</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Encuentro de fachada con forjado-P0 NO M1</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.58</Transmitancia>
+        <Tipo>Encuentro de fachada con forjado</Tipo>
+        <Longitud>13.00</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Pilar integrado en fachada-P0 SO M2</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.05</Transmitancia>
+        <Tipo>Pilar integrado en fachada</Tipo>
+        <Longitud>6.60</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Pilar en Esquina-P0 SO M2</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>0.78</Transmitancia>
+        <Tipo>Pilar en Esquina</Tipo>
+        <Longitud>2.20</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Encuentro de fachada con forjado-P0 SO M2</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.58</Transmitancia>
+        <Tipo>Encuentro de fachada con forjado</Tipo>
+        <Longitud>18.60</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Pilar integrado en fachada-P0 SE M2</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.05</Transmitancia>
+        <Tipo>Pilar integrado en fachada</Tipo>
+        <Longitud>6.60</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Pilar en Esquina-P0 SE M2</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>0.78</Transmitancia>
+        <Tipo>Pilar en Esquina</Tipo>
+        <Longitud>2.20</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Encuentro de fachada con forjado-P0 SE M2</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.58</Transmitancia>
+        <Tipo>Encuentro de fachada con forjado</Tipo>
+        <Longitud>13.00</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Pilar integrado en fachada-P1 NO M1</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.05</Transmitancia>
+        <Tipo>Pilar integrado en fachada</Tipo>
+        <Longitud>8.10</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Pilar en Esquina-P1 NO M1</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>0.78</Transmitancia>
+        <Tipo>Pilar en Esquina</Tipo>
+        <Longitud>2.70</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Encuentro de fachada con forjado-P1 NO M1</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.58</Transmitancia>
+        <Tipo>Encuentro de fachada con forjado</Tipo>
+        <Longitud>13.00</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Pilar integrado en fachada-P1 SO M2</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.05</Transmitancia>
+        <Tipo>Pilar integrado en fachada</Tipo>
+        <Longitud>8.10</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Pilar en Esquina-P1 SO M2</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>0.78</Transmitancia>
+        <Tipo>Pilar en Esquina</Tipo>
+        <Longitud>2.70</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Encuentro de fachada con forjado-P1 SO M2</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.58</Transmitancia>
+        <Tipo>Encuentro de fachada con forjado</Tipo>
+        <Longitud>18.00</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Pilar integrado en fachada-P1 SE M3</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.05</Transmitancia>
+        <Tipo>Pilar integrado en fachada</Tipo>
+        <Longitud>8.10</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Pilar en Esquina-P1 SE M3</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>0.78</Transmitancia>
+        <Tipo>Pilar en Esquina</Tipo>
+        <Longitud>2.70</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Encuentro de fachada con forjado-P1 SE M3</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.58</Transmitancia>
+        <Tipo>Encuentro de fachada con forjado</Tipo>
+        <Longitud>13.00</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Pilar integrado en fachada-P2 NO M1</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.05</Transmitancia>
+        <Tipo>Pilar integrado en fachada</Tipo>
+        <Longitud>8.10</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Pilar en Esquina-P2 NO M1</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>0.78</Transmitancia>
+        <Tipo>Pilar en Esquina</Tipo>
+        <Longitud>2.70</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Encuentro de fachada con forjado-P2 NO M1</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.58</Transmitancia>
+        <Tipo>Encuentro de fachada con forjado</Tipo>
+        <Longitud>13.00</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Pilar integrado en fachada-P2 SO M2</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.05</Transmitancia>
+        <Tipo>Pilar integrado en fachada</Tipo>
+        <Longitud>8.10</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Pilar en Esquina-P2 SO M2</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>0.78</Transmitancia>
+        <Tipo>Pilar en Esquina</Tipo>
+        <Longitud>2.70</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Encuentro de fachada con forjado-P2 SO M2</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.58</Transmitancia>
+        <Tipo>Encuentro de fachada con forjado</Tipo>
+        <Longitud>16.00</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Pilar integrado en fachada-P2 SE M3</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.05</Transmitancia>
+        <Tipo>Pilar integrado en fachada</Tipo>
+        <Longitud>8.10</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Pilar en Esquina-P2 SE M3</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>0.78</Transmitancia>
+        <Tipo>Pilar en Esquina</Tipo>
+        <Longitud>2.70</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Encuentro de fachada con forjado-P2 SE M3</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.58</Transmitancia>
+        <Tipo>Encuentro de fachada con forjado</Tipo>
+        <Longitud>13.00</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Encuentro de fachada con suelo en contacto con el aire-Suelo con aire</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>0.97</Transmitancia>
+        <Tipo>Encuentro de fachada con suelo en contacto con el aire</Tipo>
+        <Longitud>9.60</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Encuentro de fachada con cubierta-Cubierta con aire</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.04</Transmitancia>
+        <Tipo>Encuentro de fachada con cubierta</Tipo>
+        <Longitud>29.00</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Contorno de hueco-G1</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>0.55</Transmitancia>
+        <Tipo>Contorno de hueco</Tipo>
+        <Longitud>10.20</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Caja de Persiana-G1</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.49</Transmitancia>
+        <Tipo>Caja de Persiana</Tipo>
+        <Longitud>3.00</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Contorno de hueco-P0 SO M2 V2</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>0.55</Transmitancia>
+        <Tipo>Contorno de hueco</Tipo>
+        <Longitud>3.80</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Caja de Persiana-P0 SO M2 V2</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.49</Transmitancia>
+        <Tipo>Caja de Persiana</Tipo>
+        <Longitud>0.50</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Contorno de hueco-P0 SE M2 V1</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>0.55</Transmitancia>
+        <Tipo>Contorno de hueco</Tipo>
+        <Longitud>3.40</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Caja de Persiana-P0 SE M2 V1</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.49</Transmitancia>
+        <Tipo>Caja de Persiana</Tipo>
+        <Longitud>1.00</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Contorno de hueco-P1 NO M1 V3</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>0.55</Transmitancia>
+        <Tipo>Contorno de hueco</Tipo>
+        <Longitud>5.20</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Caja de Persiana-P1 NO M1 V3</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.49</Transmitancia>
+        <Tipo>Caja de Persiana</Tipo>
+        <Longitud>1.40</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Contorno de hueco-P1 NO M1 P1</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>0.55</Transmitancia>
+        <Tipo>Contorno de hueco</Tipo>
+        <Longitud>6.40</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Caja de Persiana-P1 NO M1 P1</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.49</Transmitancia>
+        <Tipo>Caja de Persiana</Tipo>
+        <Longitud>1.10</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Contorno de hueco-P1 SO M2 v4</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>0.55</Transmitancia>
+        <Tipo>Contorno de hueco</Tipo>
+        <Longitud>3.80</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Caja de Persiana-P1 SO M2 v4</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.49</Transmitancia>
+        <Tipo>Caja de Persiana</Tipo>
+        <Longitud>0.70</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Contorno de hueco-P1 SO M2 V2</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>0.55</Transmitancia>
+        <Tipo>Contorno de hueco</Tipo>
+        <Longitud>7.60</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Caja de Persiana-P1 SO M2 V2</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.49</Transmitancia>
+        <Tipo>Caja de Persiana</Tipo>
+        <Longitud>1.00</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Contorno de hueco-P1 SO M2 P1</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>0.55</Transmitancia>
+        <Tipo>Contorno de hueco</Tipo>
+        <Longitud>6.40</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Caja de Persiana-P1 SO M2 P1</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.49</Transmitancia>
+        <Tipo>Caja de Persiana</Tipo>
+        <Longitud>1.10</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Contorno de hueco-P1 SE M3 V4</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>0.55</Transmitancia>
+        <Tipo>Contorno de hueco</Tipo>
+        <Longitud>7.60</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Caja de Persiana-P1 SE M3 V4</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.49</Transmitancia>
+        <Tipo>Caja de Persiana</Tipo>
+        <Longitud>1.40</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Contorno de hueco-P1 SE M3 V3</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>0.55</Transmitancia>
+        <Tipo>Contorno de hueco</Tipo>
+        <Longitud>5.20</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Caja de Persiana-P1 SE M3 V3</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.49</Transmitancia>
+        <Tipo>Caja de Persiana</Tipo>
+        <Longitud>1.40</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Contorno de hueco-P2 NO M1 V5</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>0.55</Transmitancia>
+        <Tipo>Contorno de hueco</Tipo>
+        <Longitud>13.60</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Caja de Persiana-P2 NO M1 V5</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.49</Transmitancia>
+        <Tipo>Caja de Persiana</Tipo>
+        <Longitud>2.60</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Contorno de hueco-P2 SE M3 V6</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>0.55</Transmitancia>
+        <Tipo>Contorno de hueco</Tipo>
+        <Longitud>9.60</Longitud>
+      </Elemento>
+      <Elemento>
+        <Nombre>PT Caja de Persiana-P2 SE M3 V6</Nombre>
+        <ModoDeObtencion>PorDefecto</ModoDeObtencion>
+        <Transmitancia>1.49</Transmitancia>
+        <Tipo>Caja de Persiana</Tipo>
+        <Longitud>2.40</Longitud>
+      </Elemento>
+    </PuentesTermicos>
+  </DatosEnvolventeTermica>
+  <InstalacionesTermicas>
+    <GeneradoresDeCalefaccion>
+      <Generador>
+        <RendimientoNominal>99999999.99</RendimientoNominal>
+        <Tipo>Caldera Estándar</Tipo>
+        <ModoDeObtencion>Estimado</ModoDeObtencion>
+        <VectorEnergetico>GasoleoC</VectorEnergetico>
+        <PotenciaNominal>24.00</PotenciaNominal>
+        <Nombre>Calefacción y ACS</Nombre>
+        <RendimientoEstacional>0.66</RendimientoEstacional>
+      </Generador>
+    </GeneradoresDeCalefaccion>
+    <InstalacionesACS>
+      <Instalacion>
+        <RendimientoNominal>99999999.99</RendimientoNominal>
+        <Tipo>Caldera Estándar</Tipo>
+        <ModoDeObtencion>Estimado</ModoDeObtencion>
+        <VectorEnergetico>GasoleoC</VectorEnergetico>
+        <PotenciaNominal>24.00</PotenciaNominal>
+        <Nombre>Calefacción y ACS</Nombre>
+        <RendimientoEstacional>0.66</RendimientoEstacional>
+      </Instalacion>
+    </InstalacionesACS>
+  </InstalacionesTermicas>
+  <CondicionesFuncionamientoyOcupacion>
+    <Espacio>
+      <Nombre>Edificio Objeto</Nombre>
+      <Superficie>140.00</Superficie>
+      <NivelDeAcondicionamiento>Acondicionado</NivelDeAcondicionamiento>
+      <PerfilDeUso>residencial-24h-baja</PerfilDeUso>
+    </Espacio>
+  </CondicionesFuncionamientoyOcupacion>
+  <Demanda>
+    <EdificioObjeto>
+      <Conjunta08>99999999.99</Conjunta08>
+      <Ahorro08>99999999.99</Ahorro08>
+      <Global>262.35</Global>
+      <ACS>14.09</ACS>
+      <Refrigeracion>18.12</Refrigeracion>
+      <Calefaccion08>99999999.99</Calefaccion08>
+      <Calefaccion>230.14</Calefaccion>
+      <Conjunta>242.83</Conjunta>
+      <Refrigeracion08>99999999.99</Refrigeracion08>
+    </EdificioObjeto>
+  </Demanda>
+  <Consumo>
+    <FactoresdePaso>
+      <FinalAPrimariaNoRenovable>
+        <GasNatural>1.19</GasNatural>
+        <ElectricidadBaleares>1.954</ElectricidadBaleares>
+        <BiomasaOtros>0.034</BiomasaOtros>
+        <ElectricidadCeutayMelilla>1.954</ElectricidadCeutayMelilla>
+        <GasoleoC>1.179</GasoleoC>
+        <ElectricidadPeninsular>1.954</ElectricidadPeninsular>
+        <GLP>1.201</GLP>
+        <Carbon>1.082</Carbon>
+        <Biocarburante>0.085</Biocarburante>
+        <ElectricidadCanarias>1.954</ElectricidadCanarias>
+        <BiomasaPellet>0.085</BiomasaPellet>
+      </FinalAPrimariaNoRenovable>
+      <FinalAEmisiones>
+        <GasNatural>0.252</GasNatural>
+        <ElectricidadBaleares>0.331</ElectricidadBaleares>
+        <BiomasaOtros>0.018</BiomasaOtros>
+        <ElectricidadCeutayMelilla>0.331</ElectricidadCeutayMelilla>
+        <GasoleoC>0.311</GasoleoC>
+        <ElectricidadPeninsular>0.331</ElectricidadPeninsular>
+        <GLP>0.254</GLP>
+        <Carbon>0.472</Carbon>
+        <Biocarburante>0.018</Biocarburante>
+        <ElectricidadCanarias>0.331</ElectricidadCanarias>
+        <BiomasaPellet>0.018</BiomasaPellet>
+      </FinalAEmisiones>
+    </FactoresdePaso>
+    <EnergiaFinalVectores>
+      <GasNatural>
+        <Calefaccion>0.00</Calefaccion>
+        <Global>0.00</Global>
+        <ACS>0.00</ACS>
+        <Refrigeracion>0.00</Refrigeracion>
+        <Iluminacion>0.00</Iluminacion>
+      </GasNatural>
+      <ElectricidadPeninsular>
+        <Calefaccion>0.00</Calefaccion>
+        <Global>9.06</Global>
+        <ACS>0.00</ACS>
+        <Refrigeracion>9.06</Refrigeracion>
+        <Iluminacion>0.00</Iluminacion>
+      </ElectricidadPeninsular>
+      <BiomasaOtros>
+        <Calefaccion>0.00</Calefaccion>
+        <Global>0.00</Global>
+        <ACS>0.00</ACS>
+        <Refrigeracion>0.00</Refrigeracion>
+        <Iluminacion>0.00</Iluminacion>
+      </BiomasaOtros>
+      <GasoleoC>
+        <Calefaccion>348.70</Calefaccion>
+        <Global>370.05</Global>
+        <ACS>21.35</ACS>
+        <Refrigeracion>0.00</Refrigeracion>
+        <Iluminacion>0.00</Iluminacion>
+      </GasoleoC>
+      <GLP>
+        <Calefaccion>0.00</Calefaccion>
+        <Global>0.00</Global>
+        <ACS>0.00</ACS>
+        <Refrigeracion>0.00</Refrigeracion>
+        <Iluminacion>0.00</Iluminacion>
+      </GLP>
+      <Carbon>
+        <Calefaccion>0.00</Calefaccion>
+        <Global>0.00</Global>
+        <ACS>0.00</ACS>
+        <Refrigeracion>0.00</Refrigeracion>
+        <Iluminacion>0.00</Iluminacion>
+      </Carbon>
+      <Biocarburante>
+        <Calefaccion>0.00</Calefaccion>
+        <Global>0.00</Global>
+        <ACS>0.00</ACS>
+        <Refrigeracion>0.00</Refrigeracion>
+        <Iluminacion>0.00</Iluminacion>
+      </Biocarburante>
+      <BiomasaPellet>
+        <Calefaccion>0.00</Calefaccion>
+        <Global>0.00</Global>
+        <ACS>0.00</ACS>
+        <Refrigeracion>0.00</Refrigeracion>
+        <Iluminacion>0.00</Iluminacion>
+      </BiomasaPellet>
+    </EnergiaFinalVectores>
+    <EnergiaPrimariaNoRenovable>
+      <ACS>25.17</ACS>
+      <Calefaccion>411.12</Calefaccion>
+      <Global>454.00</Global>
+      <Refrigeracion>17.70</Refrigeracion>
+      <Iluminacion>0.00</Iluminacion>
+    </EnergiaPrimariaNoRenovable>
+  </Consumo>
+  <EmisionesCO2>
+    <ConsumoElectrico>3.00</ConsumoElectrico>
+    <TotalConsumoElectrico>419.79</TotalConsumoElectrico>
+    <TotalConsumoOtros>16112.19</TotalConsumoOtros>
+    <Calefaccion>108.45</Calefaccion>
+    <Global>118.09</Global>
+    <ACS>6.64</ACS>
+    <Refrigeracion>3.00</Refrigeracion>
+    <ConsumoOtros>115.09</ConsumoOtros>
+    <Iluminacion>0.00</Iluminacion>
+  </EmisionesCO2>
+  <Calificacion>
+    <Demanda>
+      <Calefaccion>G</Calefaccion>
+      <Refrigeracion>C</Refrigeracion>
+      <EscalaCalefaccion>
+        <A>28.90</A>
+        <B>46.80</B>
+        <C>72.60</C>
+        <D>111.60</D>
+        <E>178.30</E>
+        <F>208.60</F>
+      </EscalaCalefaccion>
+      <EscalaRefrigeracion>
+        <A>10.00</A>
+        <B>14.30</B>
+        <C>20.40</C>
+        <D>29.70</D>
+        <E>36.70</E>
+        <F>45.10</F>
+      </EscalaRefrigeracion>
+    </Demanda>
+    <EnergiaPrimariaNoRenovable>
+      <Calefaccion>G</Calefaccion>
+      <Refrigeracion>C</Refrigeracion>
+      <ACS>E</ACS>
+      <Global>F</Global>
+      <EscalaGlobal>
+        <A>54.20</A>
+        <B>87.80</B>
+        <C>136.10</C>
+        <D>209.30</D>
+        <E>375.60</E>
+        <F>473.20</F>
+      </EscalaGlobal>
+    </EnergiaPrimariaNoRenovable>
+    <EmisionesCO2>
+      <Calefaccion>G</Calefaccion>
+      <Refrigeracion>B</Refrigeracion>
+      <ACS>E</ACS>
+      <Global>G</Global>
+      <EscalaGlobal>
+        <A>12.20</A>
+        <B>19.90</B>
+        <C>30.80</C>
+        <D>47.30</D>
+        <E>83.70</E>
+        <F>100.40</F>
+      </EscalaGlobal>
+    </EmisionesCO2>
+  </Calificacion>
+  <MedidasDeMejora>
+    <Medida>
+      <CosteEstimado>7856.98</CosteEstimado>
+      <CalificacionDemanda>
+        <Calefaccion>D</Calefaccion>
+        <Refrigeracion>C</Refrigeracion>
+      </CalificacionDemanda>
+      <OtrosDatos></OtrosDatos>
+      <EnergiaFinal>
+        <ACS>21.35</ACS>
+        <Calefaccion>142.83</Calefaccion>
+        <Global>173.33</Global>
+        <Refrigeracion>9.15</Refrigeracion>
+        <Iluminacion>0.00</Iluminacion>
+      </EnergiaFinal>
+      <CalificacionEnergiaPrimariaNoRenovable>
+        <ACS>E</ACS>
+        <Calefaccion>E</Calefaccion>
+        <Global>E</Global>
+        <Refrigeracion>C</Refrigeracion>
+      </CalificacionEnergiaPrimariaNoRenovable>
+      <Demanda>
+        <Calefaccion>94.27</Calefaccion>
+        <Global>126.66</Global>
+        <GlobalDiferenciaSituacionInicial>135.69</GlobalDiferenciaSituacionInicial>
+        <Refrigeracion>18.30</Refrigeracion>
+      </Demanda>
+      <Descripcion></Descripcion>
+      <Nombre>Mejora aislamiento tércmico</Nombre>
+      <EnergiaPrimariaNoRenovable>
+        <GlobalDiferenciaSituacionInicial>242.54</GlobalDiferenciaSituacionInicial>
+        <Calefaccion>168.40</Calefaccion>
+        <Global>211.45</Global>
+        <ACS>25.17</ACS>
+        <Iluminacion>0.00</Iluminacion>
+        <Refrigeracion>17.88</Refrigeracion>
+      </EnergiaPrimariaNoRenovable>
+      <EmisionesCO2>
+        <GlobalDiferenciaSituacionInicial>64.00</GlobalDiferenciaSituacionInicial>
+        <Calefaccion>44.42</Calefaccion>
+        <Global>54.09</Global>
+        <ACS>6.64</ACS>
+        <Iluminacion>0.00</Iluminacion>
+        <Refrigeracion>3.03</Refrigeracion>
+      </EmisionesCO2>
+      <CalificacionEmisionesCO2>
+        <ACS>E</ACS>
+        <Calefaccion>E</Calefaccion>
+        <Global>E</Global>
+        <Refrigeracion>B</Refrigeracion>
+      </CalificacionEmisionesCO2>
+    </Medida>
+  </MedidasDeMejora>
+  <PruebasComprobacionesInspecciones>
+    <Visita>
+      <Datos>El técnico realizó una visita al inmueble certificado con fecha 12/09/2014, realizando: - Levantamiento de croquis, plano acotado. - Comprobación de los huecos (ventanas y puertas): dimensiones, características de los vidrios instalados, características de carpintería, características de elementos de sombra, así como la toma de fotografías de cada uno de ellos. - Revisión de las instalaciones (ACS, Calefacción, iluminación y ventilación). Así mismo, para aquellas características que no se han podido medir in situ (como por ejemplo, los diferentes tipos de materiales que forman cada elemento constructivo), el Técnico Certificador ha empleado los valores por defecto que el procedimiento oficial recogido en RD 233/2013 y en los programas informáticos reconocidos por el Ministerio.
+</Datos>
+      <FechaVisita>09/11/2017</FechaVisita>
+    </Visita>
+  </PruebasComprobacionesInspecciones>
+  <DatosPersonalizados>
+    <Aplicacion>CE3X</Aplicacion>
+    <FechaGeneracion>09/11/2017</FechaGeneracion>
+  </DatosPersonalizados>
+</DatosEnergeticosDelEdificio>

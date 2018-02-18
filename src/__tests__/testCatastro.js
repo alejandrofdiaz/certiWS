@@ -1,4 +1,4 @@
-module.exports = `<?xml version="1.0" encoding="utf-8"?>
+const testRequest = `<?xml version="1.0" encoding="utf-8"?>
 <consulta_dnp xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.catastro.meh.es/">
   <control>
     <cudnp>1</cudnp>
@@ -117,3 +117,11 @@ module.exports = `<?xml version="1.0" encoding="utf-8"?>
     </lcons>
   </bico>
 </consulta_dnp>`;
+
+
+describe('Start',()=>{
+
+  test('Void test',()=>{
+    expect(2+2).toBe(4);
+  })
+})
