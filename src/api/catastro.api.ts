@@ -19,7 +19,7 @@ import * as municipiosApi from './municipios.api';
  * Utils
  */
 import { consultaDNPRBodyParser, refCatastralSimplifiedListParser } from '../common/catastro.data.utils';
-
+import { SpainBoundaries } from '../common/coordinates.utils';
 /**
  * Constants
  */
@@ -71,11 +71,12 @@ function getReferenciasCatastrales(lat: string, long: string): Promise<any> {
     30: 'EPSG:32630',
     31: 'EPSG:32631'
   };
-  const CONVERSION = fromLatLon(Number(lat), Number(long));
+
+  const { easting, northing, zoneNum } = fromLatLon(Number(lat), Number(long));
   const DATA = {
-    lat: CONVERSION.easting,
-    long: CONVERSION.northing,
-    zone: CONVERSION.zoneNum
+    lat: easting,
+    long: northing,
+    zone: zoneNum
   };
 
   const options = {
@@ -91,11 +92,14 @@ function getReferenciasCatastrales(lat: string, long: string): Promise<any> {
       'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept'
     }
   };
+
   return new Promise((resolve, reject) => {
-    request.get(options, (err, httpResponse, body) => {
-      const _body = refCatastralSimplifiedListParser(body);
-      resolve(_body);
-    });
+    if (SpainBoundaries.belongsSpain({ lat: Number(lat), long: Number(long) })) {
+      request.get(options, (err, httpResponse, body) => {
+        const _body = refCatastralSimplifiedListParser(body);
+        resolve(_body);
+      });
+    } else resolve([]);
   });
 }
 
