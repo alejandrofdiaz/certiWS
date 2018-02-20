@@ -60,3 +60,4 @@ typings/
 # distribution folders
 dist/
 build/
+temp/
