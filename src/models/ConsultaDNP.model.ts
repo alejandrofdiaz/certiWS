@@ -8,9 +8,10 @@ interface DireccionModel {
 }
 
 interface LointModel {
-  es?: string;
-  pt?: string;
-  pu?: string;
+  bq?: string; //Bloque
+  es?: string; //Escalera
+  pt?: string; //Planta
+  pu?: string; //Puerta
 }
 
 interface DebiModel {

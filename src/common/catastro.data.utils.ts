@@ -79,8 +79,26 @@ function isValidListReferenciaCatastral(xmlElement: any): boolean {
 
 function consultaDNPRBodyParser(body: string) {
   let _parcela = new ConsultaDNP();
+  let isSingleEstate: boolean = null;
   const _body = xmlToJS(body, xml2JsConfig).consulta_dnp;
-  const _bodyBi = _body.bico.bi;
+
+  let _bodyBi: any;
+
+  /**
+   * Difference between single building and multiple units
+  */
+  if (!!_body.bico) {
+    _bodyBi = _body.bico.bi;
+    isSingleEstate = true;
+  } else {
+    // If multiple building, has to be an Array, at least one item
+    if (isArray(_body.lrcdnp.rcdnp)) {
+      _bodyBi = _body.lrcdnp.rcdnp;
+    } else {
+      _bodyBi = [_body.lrcdnp.rcdnp];
+    }
+    isSingleEstate = false;
+  }
 
   /**
    * bi -> Ibdi
@@ -126,6 +144,7 @@ function consultaDNPRBodyParser(body: string) {
 
   _parcela.loint = {
     es: _bodyLourb.loint.es._text,
+    bq: _bodyLourb.loint.bq || '',
     pt: _bodyLourb.loint.pt._text,
     pu: _bodyLourb.loint.pu._text
   };
@@ -159,13 +178,16 @@ function consultaDNPRBodyParser(body: string) {
     unidadCons.lcd = item.lcd._text;
     unidadCons.stl = item.dfcons.stl._text;
 
-    const _loint = item.dt.lourb.loint;
+    if (!!item.dt) {
+      const _loint = item.dt.lourb.loint;
 
-    unidadCons.es = _loint.es._text;
-    unidadCons.pt = _loint.pt._text;
-    unidadCons.pu = _loint.pu._text;
+      unidadCons.es = _loint.es ? _loint.es._text : '';
+      unidadCons.pt = _loint.pt ? _loint.pt._text : '';
+      unidadCons.pu = _loint.pu ? _loint.pu._text : '';
+    }
     return unidadCons;
   });
+
   return _parcela;
 }
 
