@@ -85,12 +85,8 @@ function isValidListReferenciaCatastral(xmlElement: any): boolean {
  * @returns {ConsultaDNP} ConsultaDNP Object
  */
 function consultaDNPRBodyParser(body: string) {
-  let _parcela = new ConsultaDNP();
-  let isSingleEstate: boolean = null;
   const _body = xmlToJS(body, xml2JsConfig).consulta_dnp;
-
   let _bodyBi: any;
-
   /**
    * Difference between single building and multiple units
    */
