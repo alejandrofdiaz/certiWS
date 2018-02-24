@@ -18,7 +18,10 @@ import * as municipiosApi from './municipios.api';
 /**
  * Utils
  */
-import { consultaDNPRBodyParser, refCatastralSimplifiedListParser } from '../common/catastro.data.utils';
+import {
+  consultaDNPRBodyParser,
+  refCatastralSimplifiedListParser
+} from '../common/catastro.data.utils';
 import { SpainBoundaries } from '../common/coordinates.utils';
 /**
  * Constants
@@ -37,7 +40,7 @@ function getMunicipios(provincia: string): Promise<any> {
     url: `${URL_BASE_CATASTRO}${service}/${action}`,
     method: 'POST',
     formData: {
-      Provincia: 'Madrid',
+      Provincia: provincia,
       Municipio: ''
     },
     headers: {
@@ -47,7 +50,8 @@ function getMunicipios(provincia: string): Promise<any> {
   };
 
   return new Promise((resolve, reject) => {
-    request.post(options, (err, httpResponse, body) => {
+    request.post(options, (err, httpResponse) => {
+      if (!!err) reject();
       resolve(httpResponse);
     });
   });
@@ -95,7 +99,8 @@ function getReferenciasCatastrales(lat: string, long: string): Promise<any> {
 
   return new Promise((resolve, reject) => {
     if (SpainBoundaries.belongsSpain({ lat: Number(lat), long: Number(long) })) {
-      request.get(options, (err, httpResponse, body) => {
+      request.get(options, (err, _httpResponse, body) => {
+        if (err) reject();
         const _body = refCatastralSimplifiedListParser(body);
         resolve(_body);
       });
@@ -111,7 +116,7 @@ function getReferenciasCatastrales(lat: string, long: string): Promise<any> {
  */
 function getCatastroDatosNoProtegidos(
   inmuebleSeleccionado: CatastroSimplifiedElement
-): Promise<ConsultaDNP> {
+): Promise<ConsultaDNP[]> {
   const [service, action] = ['ovccallejero.asmx', 'Consulta_DNPRC'];
 
   const [provincia, municipio] = [
@@ -134,6 +139,7 @@ function getCatastroDatosNoProtegidos(
   };
   return new Promise((resolve, reject) => {
     request.get(options, (err, httpResponse, body) => {
+      if(!!err) reject();
       switch (httpResponse.statusCode) {
         case 400:
           reject(body);

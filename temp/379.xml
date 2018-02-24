@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<consulta_dnp xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.catastro.meh.es/">
+  <control>
+    <cudnp>1</cudnp>
+    <cucul>1</cucul>
+  </control>
+  <bico>
+    <bi>
+      <idbi>
+        <cn>RU</cn>
+        <rc>
+          <pc1>38037A0</pc1>
+          <pc2>0400239</pc2>
+          <car>0000</car>
+          <cc1>S</cc1>
+          <cc2>H</cc2>
+        </rc>
+      </idbi>
+      <dt>
+        <loine>
+          <cp>38</cp>
+          <cm>37</cm>
+        </loine>
+        <cmc>37</cmc>
+        <np>S.C. TENERIFE</np>
+        <nm>SANTA CRUZ DE LA PALMA</nm>
+        <locs>
+          <lors>
+            <lorus>
+              <czc>0</czc>
+              <cpp>
+                <cpo>4</cpo>
+                <cpa>239</cpa>
+              </cpp>
+              <npa>BCO MADERA</npa>
+              <cpaj>14</cpaj>
+            </lorus>
+          </lors>
+        </locs>
+      </dt>
+      <ldt>Polígono 4 Parcela 239 BCO MADERA. SANTA CRUZ DE LA PALMA (S.C. TENERIFE)</ldt>
+      <debi />
+    </bi>
+    <lspr>
+      <spr>
+        <cspr>0</cspr>
+        <dspr>
+          <ccc>MM</ccc>
+          <dcc>PINAR MADERABLE</dcc>
+          <ip>00</ip>
+          <ssp>53075</ssp>
+        </dspr>
+      </spr>
+    </lspr>
+  </bico>
+</consulta_dnp>

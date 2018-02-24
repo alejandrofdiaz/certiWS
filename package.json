@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "lint": "tslint --project .",
     "test:verbose": "jest --verbose",
     "test:watch": "jest --watchAll",
     "build": "npm run test && rimraf ./build && gulp",

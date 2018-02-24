@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<consulta_dnp xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.catastro.meh.es/">
+  <control>
+    <cudnp>1</cudnp>
+    <cucul>4</cucul>
+  </control>
+  <bico>
+    <bi>
+      <idbi>
+        <cn>RU</cn>
+        <rc>
+          <pc1>49291A0</pc1>
+          <pc2>1900003</pc2>
+          <car>0000</car>
+          <cc1>Q</cc1>
+          <cc2>F</cc2>
+        </rc>
+      </idbi>
+      <dt>
+        <loine>
+          <cp>49</cp>
+          <cm>262</cm>
+        </loine>
+        <cmc>291</cmc>
+        <np>ZAMORA</np>
+        <nm>VILLARDECIERVOS</nm>
+        <locs>
+          <lors>
+            <lorus>
+              <czc>0</czc>
+              <cpp>
+                <cpo>19</cpo>
+                <cpa>3</cpa>
+              </cpp>
+              <npa>RETORNO</npa>
+              <cpaj>229</cpaj>
+            </lorus>
+          </lors>
+        </locs>
+      </dt>
+      <ldt>Polígono 19 Parcela 3 RETORNO. VILLARDECIERVOS (ZAMORA)</ldt>
+      <debi />
+    </bi>
+    <lspr>
+      <spr>
+        <cspr>a</cspr>
+        <dspr>
+          <ccc>MB</ccc>
+          <dcc>MONTE BAJO</dcc>
+          <ip>00</ip>
+          <ssp>869840</ssp>
+        </dspr>
+      </spr>
+      <spr>
+        <cspr>b</cspr>
+        <dspr>
+          <ccc>I-</ccc>
+          <dcc>IMPRODUCTIVO</dcc>
+          <ip>00</ip>
+          <ssp>21972</ssp>
+        </dspr>
+      </spr>
+      <spr>
+        <cspr>c</cspr>
+        <dspr>
+          <ccc>MM</ccc>
+          <dcc>PINAR MADERABLE</dcc>
+          <ip>00</ip>
+          <ssp>2986534</ssp>
+        </dspr>
+      </spr>
+      <spr>
+        <cspr>d</cspr>
+        <dspr>
+          <ccc>C-</ccc>
+          <dcc>LABOR O LABRADÍO SECANO</dcc>
+          <ip>04</ip>
+          <ssp>15681</ssp>
+        </dspr>
+      </spr>
+    </lspr>
+  </bico>
+</consulta_dnp>

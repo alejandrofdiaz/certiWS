@@ -37,7 +37,7 @@ app.get('/testCaptcha', (req, res) => {
       ('88.6.105.181' || req.connection.remoteAddress)
   };
 
-  request(verificationUrl, (error, response, body: string) => {
+  request(verificationUrl, (_error, _response, body: string) => {
     let _body = JSON.parse(body);
     // Success will be true or false depending upon captcha validation.
     if (_body.success !== undefined && !_body.success) {
@@ -50,7 +50,7 @@ app.get('/testCaptcha', (req, res) => {
 app.get('/getRC', (req, res) => {
   catastroApi.getReferenciasCatastrales(req.query.lat, req.query.long).then(
     response => res.json(response),
-    response => {
+    () => {
       res.status(424);
       res.send();
     }
@@ -60,7 +60,7 @@ app.get('/getRC', (req, res) => {
 app.get('/getDNPPP', (req, res) => {
   catastroApi.getCatastroDatosNoProtegidos(req.query).then(
     response => res.json(response),
-    response => {
+    () => {
       res.status(424);
       res.send();
     }
