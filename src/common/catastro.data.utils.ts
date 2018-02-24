@@ -95,7 +95,7 @@ function consultaDNPRBodyParser(body: string) {
    * Difference between single building and multiple units
    */
   if (!!_body.bico) {
-    return dnpOneState(_body);
+    return [dnpOneState(_body)];
   } else {
     // If multiple building, has to be an Array, at least one item
     if (isArray(_body.lrcdnp.rcdnp)) {
@@ -103,12 +103,12 @@ function consultaDNPRBodyParser(body: string) {
     } else {
       _bodyBi = [_body.lrcdnp.rcdnp];
     }
-    return _parcela;
+    return <ConsultaDNP[]>_bodyBi.map(dnpMultipleEstates);
   }
 }
 
 /**
- * Parse function for One State due to following model
+ * Parse function for One estate due to following model
  * <consulta_dnp>
  * <control>
  * <cudnp>NÚMERO DE INMUEBLES DE LOS QUE SE * PROPORCIONAN DATOS</cudnp>
@@ -207,24 +207,27 @@ function dnpOneState(xmlBody): ConsultaDNP {
   /**
    * bi -> dt -> locs -> lous-> lourb
    */
-  const _bodyLourb = _bodyDt.locs.lous.lourb;
 
-  consultaDNP.dp = _bodyLourb.dp._text;
-  consultaDNP.dm = _bodyLourb.dm._text;
+  if (!!_bodyDt.locs && !!_bodyDt.locs.lous && !!_bodyDt.locs.lous.lourb) {
+    const _bodyLourb = _bodyDt.locs.lous.lourb;
 
-  consultaDNP.dir = {
-    cv: _bodyLourb.dir.cv._text,
-    tv: _bodyLourb.dir.tv._text,
-    nv: _bodyLourb.dir.nv._text,
-    pnp: _bodyLourb.dir.pnp._text
-  };
+    consultaDNP.dp = getNodeText(_bodyLourb.dp);
+    consultaDNP.dm = getNodeText(_bodyLourb.dm);
 
-  consultaDNP.loint = {
-    es: _bodyLourb.loint.es._text,
-    bq: _bodyLourb.loint.bq || '',
-    pt: _bodyLourb.loint.pt._text,
-    pu: _bodyLourb.loint.pu._text
-  };
+    consultaDNP.dir = {
+      cv: _bodyLourb.dir.cv._text,
+      tv: _bodyLourb.dir.tv._text,
+      nv: _bodyLourb.dir.nv._text,
+      pnp: getNodeText(_bodyLourb.dir.pnp)
+    };
+
+    consultaDNP.loint = {
+      es: getNodeText(_bodyLourb.loint.es),
+      bq: getNodeText(_bodyLourb.loint.bq),
+      pt: getNodeText(_bodyLourb.loint.pt),
+      pu: getNodeText(_bodyLourb.loint.pu)
+    };
+  }
 
   /**
    * bi -> ldt
@@ -234,18 +237,21 @@ function dnpOneState(xmlBody): ConsultaDNP {
   /**
    * bi -> debi
    */
-  const _bodyDebi = _bodyBi.debi;
-  consultaDNP.debi = {
-    luso: _bodyDebi.luso._text,
-    sfc: _bodyDebi.sfc._text,
-    cpt: _bodyDebi.cpt._text,
-    ant: _bodyDebi.ant._text
-  };
+
+  if (!!_bodyBi && !!_bodyBi.debi) {
+    const _bodyDebi = _bodyBi.debi;
+    consultaDNP.debi = {
+      luso: getNodeText(_bodyDebi.luso),
+      sfc: getNodeText(_bodyDebi.sfc),
+      cpt: getNodeText(_bodyDebi.cpt),
+      ant: getNodeText(_bodyDebi.ant)
+    };
+  }
 
   /**
    * Lcons
    */
-  let _bodyLcons = <any[]>xmlBody.bico.lcons.cons || [];
+  let _bodyLcons = <any[]>xmlBody.bico.lcons ? xmlBody.bico.lcons.cons : [];
 
   if (!isArray(_bodyLcons)) _bodyLcons = [_bodyLcons];
 
@@ -267,5 +273,98 @@ function dnpOneState(xmlBody): ConsultaDNP {
 
   return consultaDNP;
 }
+
+/**
+ * Parse function for multiple estates due to following model:
+ * <consulta_dnp>
+ * <control>
+ * <cudnp>NÚMERO DE ITEMS EN LA LISTA DE BIENES INMUEBLES</cudnp>
+ * </control>
+ * <lrcdnp> LISTA DE BIENES INMUEBLES
+ * <rcdnp> DATOS DE UN INMUEBLE
+ * <rc>
+ * <pc1> POSICIONES 1-7 DE LA REFERENCIA CATASTRAL (RC) DEL INMUEBLE</pc1>
+ * <pc2>POSICIONES 8-14 DE LA RC DEL INMUEBLE</pc1>
+ * <car>POSICIONES 15-19 DE LA RC (CARGO)</car>
+ * <cc1>PRIMER DÍGITO DE CONTROL DE LA RC</cc1>
+ * <cc2>SEGUNDO DÍGITO DE CONTROL DE LA RC </cc2>
+ * </rc>
+ * <dt>DOMICILIO TRIBUTARIO DEL INMUEBLE
+ * <lourb>LOCALIZACIÓN DE INMUEBLE URBANO
+ * <loint>
+ * <bq>BLOQUE</bq>
+ * <es>ESCALERA</es>
+ * <pt>PLANTA</pt>
+ * <pu>PUERTA</pu>
+ * </loint>
+ * </lourb>
+ * <lorus>
+ * <cma>CÓDIGO DEL MUNICIPIO AGREGADO</cma>
+ * <czc>CÓDIGO DE LA ZONA DE CONCENTRACIÓN</czc>
+ * <cpp>
+ * <cpo>CÓDIGO DEL POLÍGONO</cpo>
+ * <cpa>CÓDIGO DE LA PARCELA</cpa>
+ * </cpp>
+ * <npa>NOMBRE DEL PARAJE</npa>
+ * <cpaj>CÓDIGO DEL PARAJE</cpaj>
+ * <lorus/>
+ * </dt>
+ * </rcdnp>
+ * ...
+ * </lrcdnp>
+ * </consulta_dnp>
+ *
+ * @param {any} xmlBody
+ * @returns {ConsultaDNP} ConsultaDNP
+ */
+function dnpMultipleEstates(element: any): ConsultaDNP {
+  const _parcela = new ConsultaDNP();
+
+  const _rc = element.rc;
+  _parcela.pc1 = _rc.pc1._text;
+  _parcela.pc2 = _rc.pc2._text;
+  _parcela.car = _rc.car._text;
+  _parcela.cc1 = _rc.cc1._text;
+  _parcela.cc2 = _rc.cc2._text;
+
+  const _dt = element.dt;
+
+  if (!!_dt.loine) {
+    _parcela.cp = _dt.loine.cp._text;
+    _parcela.cm = _dt.loine.cm._text;
+  }
+
+  _parcela.cmc = _dt.cmc._text;
+  _parcela.np = _dt.np._text;
+  _parcela.nm = _dt.nm._text;
+
+  if (!!_dt.locs && !!_dt.locs.lous && !!_dt.locs.lous.lourb) {
+    const _lourb = _dt.locs.lous.lourb;
+
+    _parcela.dir.cv = getNodeText(_lourb.dir.cv);
+    _parcela.dir.tv = getNodeText(_lourb.dir.tv);
+    _parcela.dir.nv = getNodeText(_lourb.dir.nv);
+    _parcela.dir.pnp = getNodeText(_lourb.dir.pnp);
+    _parcela.dir.snp = getNodeText(_lourb.dir.snp);
+    _parcela.dir.td = getNodeText(_lourb.dir.td);
+
+    _parcela.loint.es = getNodeText(_lourb.loint.es);
+    _parcela.loint.pt = getNodeText(_lourb.loint.pt);
+    _parcela.loint.pu = getNodeText(_lourb.loint.pu);
+
+    _parcela.dp = _lourb.dp._text;
+    _parcela.dm = _lourb.dm._text;
+  }
+
+  return _parcela;
+}
+
+/**
+ * Returns default value for _text attribute
+ *
+ * @param item
+ * @returns {string} string
+ */
+const getNodeText = (item: { _text: string }): string => (!!item ? item._text : '');
 
 export { refCatastralSimplifiedListParser, consultaDNPRBodyParser };

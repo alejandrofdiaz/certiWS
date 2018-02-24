@@ -111,7 +111,7 @@ function getReferenciasCatastrales(lat: string, long: string): Promise<any> {
  */
 function getCatastroDatosNoProtegidos(
   inmuebleSeleccionado: CatastroSimplifiedElement
-): Promise<ConsultaDNP> {
+): Promise<ConsultaDNP[]> {
   const [service, action] = ['ovccallejero.asmx', 'Consulta_DNPRC'];
 
   const [provincia, municipio] = [

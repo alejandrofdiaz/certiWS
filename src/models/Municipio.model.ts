@@ -1,13 +1,14 @@
 interface MunicipioModel {
   nm: string; //Nombre
+  //CÓDIGOS DEL MUNICIPIO SEGÚN MHAP
   locat: {
-    cd: string;
-    cmc: string;
+    cd: string; //CÓDIGO DE LA DELEGACIÓN MHAP
+    cmc: string; //Código municipio
   };
-
+  //Según INE
   loine: {
-    cp: string;
-    cm: string;
+    cp: string; //CÓDIGO DE LA PROVINCIA
+    cm: string; //CÓDIGO DEL MUNICIPIO
   };
 }
 
