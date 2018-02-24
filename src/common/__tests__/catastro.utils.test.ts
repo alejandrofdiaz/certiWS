@@ -59,7 +59,9 @@ describe('Catastro Parsers utilities', () => {
 
   test.only('Get DNP Existant from single file', () => {
     const _file = tempFilePath('108');
-    expect(consultaDNPRBodyParser(fs.readFileSync(_file, 'utf-8'))).not.toThrow();
+    expect(() => {
+      consultaDNPRBodyParser(fs.readFileSync(_file, 'utf-8'));
+    }).not.toThrow();
   });
 
   test.skip('DNP batch-parsing not throwing any exception', () => {

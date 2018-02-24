@@ -77,6 +77,13 @@ function isValidListReferenciaCatastral(xmlElement: any): boolean {
   return !!xmlElement.consulta_coordenadas_distancias.coordenadas_distancias.coordd.lpcd;
 }
 
+/**
+ * From xml fetched from catastro service, normalize or parse into a confortable
+ * object to handle.
+ *
+ * @param {string} body
+ * @returns {ConsultaDNP} ConsultaDNP Object
+ */
 function consultaDNPRBodyParser(body: string) {
   let _parcela = new ConsultaDNP();
   let isSingleEstate: boolean = null;
@@ -86,10 +93,9 @@ function consultaDNPRBodyParser(body: string) {
 
   /**
    * Difference between single building and multiple units
-  */
+   */
   if (!!_body.bico) {
-    _bodyBi = _body.bico.bi;
-    isSingleEstate = true;
+    return dnpOneState(_body);
   } else {
     // If multiple building, has to be an Array, at least one item
     if (isArray(_body.lrcdnp.rcdnp)) {
@@ -97,52 +103,123 @@ function consultaDNPRBodyParser(body: string) {
     } else {
       _bodyBi = [_body.lrcdnp.rcdnp];
     }
-    isSingleEstate = false;
+    return _parcela;
   }
+}
 
+/**
+ * Parse function for One State due to following model
+ * <consulta_dnp>
+ * <control>
+ * <cudnp>NÚMERO DE INMUEBLES DE LOS QUE SE * PROPORCIONAN DATOS</cudnp>
+ * <cucons>NÚMERO DE UNIDADES CONSTRUCTIVAS * (INCLUYENDO ELEMENTOS COMUNES)</cucons>
+ * <cucul>NUMERO DE SUBPARCELAS (CULTIVOS)</cucul>
+ * </control>
+ * <bico>
+ * <bi>
+ * <idbi>
+ * <cn>TIPO DE BIEN INMUEBLE</cn>
+ * <rc>
+ * <pc1> POSICIONES 1-7 DE LA REFERENCIA CATASTRAL * (RC) DEL INMUEBLE</pc1>
+ * <pc2>POSICIONES 8-14 DE LA RC DEL INMUEBLE</pc1>
+ * <car>POSICIONES 15-19 DE LA RC (CARGO)</car>
+ * <cc1>PRIMER DÍGITO DE CONTROL DE LA RC</cc1>
+ * <cc2>SEGUNDO DÍGITO DE CONTROL DE LA RC </cc2>
+ * </rc>
+ * </idbi>
+ * <ldt>DOMICILIO TRIBUTARIO NO ESTRUCTURADO * (TEXTO)</ldt>
+ * <debi> DATOS ECONÓMICOS DEL INMUEBLE
+ * <luso>Residencial</luso>
+ * <sfc>SUPERFICIE</sfc>
+ * <cpt>COEFICIENTE DE PARTICIPACIÓN</cpt>
+ * <ant>ANTIGUEDAD</ant>
+ * </debi>
+ * </bi>
+ * <lcons>LISTA DE UNIDADES CONSTRUCTIVAS
+ * <cons>UNIDAD CONSTRUCTIVA
+ * <lcd>USO DE LA UNIDAD CONSTRUCTIVA</lcd>
+ * <dt>
+ * <lourb>
+ * <loint>
+ * <es>ESCALERA</es>
+ * <pt>PLANTA</pt>
+ * <pu>PUERTA</pu>
+ * </loint>
+ * </lourb>
+ * </dt>
+ * <dfcons>
+ * <stl>SUPERFICIE DE LA UNIDAD CONSTRUCTIVA</stl>
+ * </dfcons>
+ * </cons>
+ * <cons>
+ * <dfcons>
+ * <stl>SUPERFICIE DE LOS ELEMENTOS COMUNES</stl>
+ * </dfcons>
+ * </cons>
+ * </lcons>
+ * <lspr>LISTA DE SUBPARCELAS
+ * <spr>SUBPARCELA
+ * <cspr>CÓDIGO DE SUBPARCELA</cspr>
+ * <dspr>DATOS DE SUBPARCELA
+ * <ccc>CALIFICACIÓN CATASTRAL</ccc>
+ * <dcc>DENOMINACIÓN DE LA CLASE CULTIVO</dcc>
+ * <ip>INTENSIDAD PRODUCTIVA</ip>
+ * <ssp>SUPERFICIE DE LA SUBPARCELA EN METROS * CUADRADOS</ssp>
+ * </dspr>
+ * </spr>
+ * </lspr>
+ * </bico>
+ * </consulta_dnp>
+ * @param {string} xmlBody
+ * @returns {ConsultaDNP} ConsultaDNP
+ */
+function dnpOneState(xmlBody): ConsultaDNP {
+  let consultaDNP = new ConsultaDNP();
+
+  const _bodyBi = xmlBody.bico.bi;
   /**
    * bi -> Ibdi
    */
   const _bodyIbdi = _bodyBi.idbi;
-  _parcela.cn = _bodyIbdi.cn._text;
+  consultaDNP.cn = _bodyIbdi.cn._text;
 
   /**
    * bi -> Ibdi -> Rc
    */
   const _bodyRC = _bodyIbdi.rc;
-  _parcela.pc1 = _bodyRC.pc1._text;
-  _parcela.pc2 = _bodyRC.pc2._text;
-  _parcela.car = _bodyRC.car._text;
-  _parcela.cc1 = _bodyRC.cc1._text;
-  _parcela.cc2 = _bodyRC.cc2._text;
+  consultaDNP.pc1 = _bodyRC.pc1._text;
+  consultaDNP.pc2 = _bodyRC.pc2._text;
+  consultaDNP.car = _bodyRC.car._text;
+  consultaDNP.cc1 = _bodyRC.cc1._text;
+  consultaDNP.cc2 = _bodyRC.cc2._text;
 
   /**
    * bi -> dt
    */
   const _bodyDt = _bodyBi.dt;
 
-  _parcela.cp = _bodyDt.loine.cp._text;
-  _parcela.cm = _bodyDt.loine.cm._text;
-  _parcela.cmc = _bodyDt.cmc._text;
-  _parcela.np = _bodyDt.np._text;
-  _parcela.nm = _bodyDt.nm._text;
+  consultaDNP.cp = _bodyDt.loine.cp._text;
+  consultaDNP.cm = _bodyDt.loine.cm._text;
+  consultaDNP.cmc = _bodyDt.cmc._text;
+  consultaDNP.np = _bodyDt.np._text;
+  consultaDNP.nm = _bodyDt.nm._text;
 
   /**
    * bi -> dt -> locs -> lous-> lourb
    */
   const _bodyLourb = _bodyDt.locs.lous.lourb;
 
-  _parcela.dp = _bodyLourb.dp._text;
-  _parcela.dm = _bodyLourb.dm._text;
+  consultaDNP.dp = _bodyLourb.dp._text;
+  consultaDNP.dm = _bodyLourb.dm._text;
 
-  _parcela.dir = {
+  consultaDNP.dir = {
     cv: _bodyLourb.dir.cv._text,
     tv: _bodyLourb.dir.tv._text,
     nv: _bodyLourb.dir.nv._text,
     pnp: _bodyLourb.dir.pnp._text
   };
 
-  _parcela.loint = {
+  consultaDNP.loint = {
     es: _bodyLourb.loint.es._text,
     bq: _bodyLourb.loint.bq || '',
     pt: _bodyLourb.loint.pt._text,
@@ -152,13 +229,13 @@ function consultaDNPRBodyParser(body: string) {
   /**
    * bi -> ldt
    */
-  _parcela.ldt = _bodyBi.ldt._text;
+  consultaDNP.ldt = _bodyBi.ldt._text;
 
   /**
    * bi -> debi
    */
   const _bodyDebi = _bodyBi.debi;
-  _parcela.debi = {
+  consultaDNP.debi = {
     luso: _bodyDebi.luso._text,
     sfc: _bodyDebi.sfc._text,
     cpt: _bodyDebi.cpt._text,
@@ -168,11 +245,11 @@ function consultaDNPRBodyParser(body: string) {
   /**
    * Lcons
    */
-  let _bodyLcons = <any[]>_body.bico.lcons.cons || [];
+  let _bodyLcons = <any[]>xmlBody.bico.lcons.cons || [];
 
   if (!isArray(_bodyLcons)) _bodyLcons = [_bodyLcons];
 
-  _parcela.lcons = _bodyLcons.map(item => {
+  consultaDNP.lcons = _bodyLcons.map(item => {
     let unidadCons = new UnidadConstructiva();
 
     unidadCons.lcd = item.lcd._text;
@@ -188,7 +265,7 @@ function consultaDNPRBodyParser(body: string) {
     return unidadCons;
   });
 
-  return _parcela;
+  return consultaDNP;
 }
 
 export { refCatastralSimplifiedListParser, consultaDNPRBodyParser };
