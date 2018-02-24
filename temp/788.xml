@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<consulta_dnp xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.catastro.meh.es/">
+  <control>
+    <cudnp>1</cudnp>
+    <cucons>1</cucons>
+    <cucul>0</cucul>
+  </control>
+  <bico>
+    <bi>
+      <idbi>
+        <cn>UR</cn>
+        <rc>
+          <pc1>45040A0</pc1>
+          <pc2>2600097</pc2>
+          <car>0001</car>
+          <cc1>R</cc1>
+          <cc2>A</cc2>
+        </rc>
+      </idbi>
+      <dt>
+        <loine>
+          <cp>45</cp>
+          <cm>40</cm>
+        </loine>
+        <cmc>40</cmc>
+        <np>TOLEDO</np>
+        <nm>EL CASAR DE ESCALONA</nm>
+        <locs>
+          <lous>
+            <lourb>
+              <dir>
+                <cv>NC</cv>
+                <tv>NC</tv>
+                <nv>NC</nv>
+              </dir>
+              <loint />
+            </lourb>
+            <lorus>
+              <czc>0</czc>
+              <cpp>
+                <cpo>26</cpo>
+                <cpa>97</cpa>
+              </cpp>
+              <npa>LA FRONTERA</npa>
+              <cpaj>106</cpaj>
+            </lorus>
+          </lous>
+        </locs>
+      </dt>
+      <ldt>Polígono 26 Parcela 97 LA FRONTERA. EL CASAR DE ESCALONA (TOLEDO)</ldt>
+      <debi>
+        <luso>Industrial</luso>
+        <sfc>42</sfc>
+        <cpt>100,000000</cpt>
+        <ant>1960</ant>
+      </debi>
+    </bi>
+    <lcons>
+      <cons>
+        <lcd>AGRARIO</lcd>
+        <dt>
+          <lourb>
+            <loint>
+              <es>1</es>
+              <pt>00</pt>
+              <pu>01</pu>
+            </loint>
+          </lourb>
+        </dt>
+        <dfcons>
+          <stl>42</stl>
+        </dfcons>
+      </cons>
+    </lcons>
+  </bico>
+</consulta_dnp>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<consulta_dnp xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.catastro.meh.es/">
+  <control>
+    <cudnp>1</cudnp>
+    <cucul>0</cucul>
+  </control>
+  <bico>
+    <bi>
+      <idbi>
+        <cn>UR</cn>
+        <rc>
+          <pc1>0140103</pc1>
+          <pc2>UK7304S</pc2>
+          <car>0001</car>
+          <cc1>E</cc1>
+          <cc2>J</cc2>
+        </rc>
+      </idbi>
+      <dt>
+        <loine>
+          <cp>45</cp>
+          <cm>40</cm>
+        </loine>
+        <cmc>40</cmc>
+        <np>TOLEDO</np>
+        <nm>EL CASAR DE ESCALONA</nm>
+        <locs>
+          <lous>
+            <lourb>
+              <dir>
+                <cv>126</cv>
+                <tv>CL</tv>
+                <nv>HERREROS</nv>
+                <pnp>1</pnp>
+              </dir>
+              <loint>
+                <es>S</es>
+                <pt>UE</pt>
+                <pu>LO</pu>
+              </loint>
+              <dp>45542</dp>
+              <dm>1</dm>
+            </lourb>
+          </lous>
+        </locs>
+      </dt>
+      <ldt>CL HERREROS 1 Suelo 45542 EL CASAR DE ESCALONA (TOLEDO)</ldt>
+      <debi>
+        <luso>Obras de urbanización y jardineria, suelos sin edificar</luso>
+        <sfc>0</sfc>
+        <cpt>100,000000</cpt>
+      </debi>
+    </bi>
+  </bico>
+</consulta_dnp>
